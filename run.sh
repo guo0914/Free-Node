@@ -19,21 +19,28 @@ PAWDROID_SUB="https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub"
 # 两个上游源用 %7C（即 |）分隔，由订阅转换服务合并；scv=false 保留证书校验
 SUBSCRIBE_COMMON="url=https%3A%2F%2Fraw.githubusercontent.com%2FPawdroid%2FFree-servers%2Fmain%2Fsub%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fermaozi01%2Ffree_clash_vpn%2Fmain%2Fsubscribe%2Fclash.yml&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FNZESupB%2FProfile%2Fmain%2Foutpref%2Fpypref%2Fpyfull.ini&filename=GitHub-GetNode&append_type=true&emoji=true&list=false&tfo=false&scv=false&fdn=false&sort=true&udp=true&new_name=true"
 
-SUBSCRIBE_CLASH="https://pub-api-1.bianyuan.xyz/sub?target=clash&${SUBSCRIBE_COMMON}"
+# Clash 由订阅转换服务合并生成；部分公共实例会拒绝 GitHub Actions 出口 IP，
+# 这里按顺序尝试多个实例，任意一个成功即可
+CONVERTER_HOSTS=(
+  "https://pub-api-1.bianyuan.xyz/sub?"
+  "https://sub.xeton.dev/sub?"
+  "https://api.v1.mk/sub?"
+)
+CLASH_QUERY="target=clash&${SUBSCRIBE_COMMON}"
 
 # bianyuan 转换服务对 target=v2ray 恒返回空内容（实测 200/0 字节），
 # 因此 v2ray 订阅直接取上游 base64 编码的订阅
 SUBSCRIBE_V2RAY="$PAWDROID_SUB"
 
-# 优先用 wget；环境里没有 wget 时（例如 Git Bash）自动改用 curl
+# 优先用 curl（GitHub Actions 与 Git Bash 都自带），失败时能看到具体原因
 fetch() {
   local url="$1"
   local out="$2"
 
-  if command -v wget >/dev/null 2>&1; then
-    wget -q --tries=3 --retry-connrefused --timeout=30 -O "$out" "$url"
+  if command -v curl >/dev/null 2>&1; then
+    curl -fsSL --retry 2 --connect-timeout 10 --max-time 60 -o "$out" "$url"
   else
-    curl -fsSL --retry 3 --connect-timeout 10 --max-time 60 -o "$out" "$url"
+    wget -q --tries=3 --retry-connrefused --timeout=30 -O "$out" "$url"
   fi
 }
 
@@ -54,14 +61,22 @@ download() {
   fi
 }
 
-download "$SUBSCRIBE_CLASH" "$CLASH_TMP" "Clash 订阅"
-download "$SUBSCRIBE_V2RAY" "$V2RAY_TMP" "V2ray 订阅"
+clash_ok=0
+for host in "${CONVERTER_HOSTS[@]}"; do
+  echo "正在通过 ${host} 获取 Clash 订阅 ..."
+  if fetch "${host}${CLASH_QUERY}" "$CLASH_TMP" && grep -q 'proxies:' "$CLASH_TMP"; then
+    clash_ok=1
+    break
+  fi
+  rm -f "$CLASH_TMP"
+done
 
-# Clash 配置至少应包含 proxies 段，否则视为异常返回
-if ! grep -q 'proxies:' "$CLASH_TMP"; then
-  echo "错误：Clash 订阅内容异常（缺少 proxies 段）" >&2
+if [ "$clash_ok" -ne 1 ]; then
+  echo "错误：所有订阅转换服务均不可用（返回失败或内容缺少 proxies 段）" >&2
   exit 1
 fi
+
+download "$SUBSCRIBE_V2RAY" "$V2RAY_TMP" "V2ray 订阅"
 
 # V2ray 订阅通常是 base64 编码的节点列表，解码后应能找到协议链接
 if ! grep -qiE '(vmess|vless|trojan|ss|hysteria2?)://' "$V2RAY_TMP" \
