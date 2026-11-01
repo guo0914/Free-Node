@@ -29,7 +29,7 @@ jobs:
           fetch-depth: 0
 
       - name: Download the subscribe
-        run: sh ./run.sh
+        run: bash ./run.sh
 
       - name: Commit and push
         run: |
