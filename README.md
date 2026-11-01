@@ -9,11 +9,9 @@
 ## 订阅链接
 > 以下为本仓库订阅地址。
 - Clash源地址：https://raw.githubusercontent.com/guo0914/Free-Node/main/clash.yaml
-- Clash加速地址1：https://ghproxy.com/https://raw.githubusercontent.com/guo0914/Free-Node/main/clash.yaml
-- Clash加速地址2：https://cdn.jsdelivr.net/gh/guo0914/Free-Node@main/clash.yaml
+- Clash加速地址：https://cdn.jsdelivr.net/gh/guo0914/Free-Node@main/clash.yaml
 - v2ray源地址：https://raw.githubusercontent.com/guo0914/Free-Node/main/v2ray.txt
-- v2ray加速地址1：https://ghproxy.com/https://raw.githubusercontent.com/guo0914/Free-Node/main/v2ray.txt
-- v2ray加速地址2：https://cdn.jsdelivr.net/gh/guo0914/Free-Node@main/v2ray.txt
+- v2ray加速地址：https://cdn.jsdelivr.net/gh/guo0914/Free-Node@main/v2ray.txt
 
 ## 支持
 
