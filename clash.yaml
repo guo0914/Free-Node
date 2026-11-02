@@ -8,7 +8,9 @@ hosts:
   .googleapis.cn: 142.250.196.131
   .google.cn: 142.250.196.131
 proxies:
-  - {name: "[SS] 新西兰 V2CROSS.COM", server: 202.50.253.54, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
+  - {name: "[SS] 新西兰 V2CROSS.COM", server: 202.50.253.99, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
+  - {name: "[SS] 新西兰 V2CROSS.COM 2", server: 202.50.253.54, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
+  - {name: "[SS] 新西兰 V2CROSS.COM 3", server: 202.50.253.90, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
   - {name: "[SS] 🇮🇹 _IT_意大利", server: 202.50.253.27, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
   - {name: "[SS] 🇮🇹 _IT_意大利 (10)", server: 202.50.253.72, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
   - {name: "[SS] 🇮🇹 _IT_意大利 (2)", server: 202.50.253.36, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
@@ -19,7 +21,6 @@ proxies:
   - {name: "[SS] 🇮🇹 _IT_意大利 (7)", server: 202.50.253.45, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
   - {name: "[SS] 🇮🇹 _IT_意大利 (8)", server: 202.50.253.99, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
   - {name: "[SS] 🇮🇹 _IT_意大利 (9)", server: 202.50.253.81, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
-  - {name: "[Trojan] 🇺🇸 美国 CloudFlare节点", server: 172.66.47.18, port: 443, type: trojan, password: e7TTceggMwUMg%2BaFN%3AF4, sni: APkD964o1oghlTghHt0L0Of.pAgeS.Dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/tr/SIeRkg2QvR2Zcpu0SeEMow?ed=2560", headers: {Host: APkD964o1oghlTghHt0L0Of.pAgeS.Dev}}, udp: true}
 proxy-groups:
   - name: 🚀 全球互联
     type: select
@@ -34,6 +35,8 @@ proxy-groups:
       - 🇹🇼 台湾
       - 🇸🇬 新加坡
       - "[SS] 新西兰 V2CROSS.COM"
+      - "[SS] 新西兰 V2CROSS.COM 2"
+      - "[SS] 新西兰 V2CROSS.COM 3"
       - "[SS] 🇮🇹 _IT_意大利"
       - "[SS] 🇮🇹 _IT_意大利 (10)"
       - "[SS] 🇮🇹 _IT_意大利 (2)"
@@ -44,7 +47,6 @@ proxy-groups:
       - "[SS] 🇮🇹 _IT_意大利 (7)"
       - "[SS] 🇮🇹 _IT_意大利 (8)"
       - "[SS] 🇮🇹 _IT_意大利 (9)"
-      - "[Trojan] 🇺🇸 美国 CloudFlare节点"
   - name: 🎥 Netflix
     type: select
     proxies:
@@ -54,6 +56,8 @@ proxy-groups:
       - 🇹🇼 台湾
       - 🇸🇬 新加坡
       - "[SS] 新西兰 V2CROSS.COM"
+      - "[SS] 新西兰 V2CROSS.COM 2"
+      - "[SS] 新西兰 V2CROSS.COM 3"
       - "[SS] 🇮🇹 _IT_意大利"
       - "[SS] 🇮🇹 _IT_意大利 (10)"
       - "[SS] 🇮🇹 _IT_意大利 (2)"
@@ -64,7 +68,6 @@ proxy-groups:
       - "[SS] 🇮🇹 _IT_意大利 (7)"
       - "[SS] 🇮🇹 _IT_意大利 (8)"
       - "[SS] 🇮🇹 _IT_意大利 (9)"
-      - "[Trojan] 🇺🇸 美国 CloudFlare节点"
   - name: 📹 Youtube
     type: select
     proxies:
@@ -74,6 +77,8 @@ proxy-groups:
       - 🇹🇼 台湾
       - 🇸🇬 新加坡
       - "[SS] 新西兰 V2CROSS.COM"
+      - "[SS] 新西兰 V2CROSS.COM 2"
+      - "[SS] 新西兰 V2CROSS.COM 3"
       - "[SS] 🇮🇹 _IT_意大利"
       - "[SS] 🇮🇹 _IT_意大利 (10)"
       - "[SS] 🇮🇹 _IT_意大利 (2)"
@@ -84,7 +89,6 @@ proxy-groups:
       - "[SS] 🇮🇹 _IT_意大利 (7)"
       - "[SS] 🇮🇹 _IT_意大利 (8)"
       - "[SS] 🇮🇹 _IT_意大利 (9)"
-      - "[Trojan] 🇺🇸 美国 CloudFlare节点"
   - name: ▶️ Disney+
     type: select
     proxies:
@@ -94,6 +98,8 @@ proxy-groups:
       - 🇹🇼 台湾
       - 🇸🇬 新加坡
       - "[SS] 新西兰 V2CROSS.COM"
+      - "[SS] 新西兰 V2CROSS.COM 2"
+      - "[SS] 新西兰 V2CROSS.COM 3"
       - "[SS] 🇮🇹 _IT_意大利"
       - "[SS] 🇮🇹 _IT_意大利 (10)"
       - "[SS] 🇮🇹 _IT_意大利 (2)"
@@ -104,7 +110,6 @@ proxy-groups:
       - "[SS] 🇮🇹 _IT_意大利 (7)"
       - "[SS] 🇮🇹 _IT_意大利 (8)"
       - "[SS] 🇮🇹 _IT_意大利 (9)"
-      - "[Trojan] 🇺🇸 美国 CloudFlare节点"
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -115,6 +120,8 @@ proxy-groups:
       - 🇹🇼 台湾
       - 🇸🇬 新加坡
       - "[SS] 新西兰 V2CROSS.COM"
+      - "[SS] 新西兰 V2CROSS.COM 2"
+      - "[SS] 新西兰 V2CROSS.COM 3"
       - "[SS] 🇮🇹 _IT_意大利"
       - "[SS] 🇮🇹 _IT_意大利 (10)"
       - "[SS] 🇮🇹 _IT_意大利 (2)"
@@ -125,7 +132,6 @@ proxy-groups:
       - "[SS] 🇮🇹 _IT_意大利 (7)"
       - "[SS] 🇮🇹 _IT_意大利 (8)"
       - "[SS] 🇮🇹 _IT_意大利 (9)"
-      - "[Trojan] 🇺🇸 美国 CloudFlare节点"
   - name: 📲 Telegram
     type: select
     proxies:
@@ -149,6 +155,8 @@ proxy-groups:
       - 🇹🇼 台湾
       - 🇸🇬 新加坡
       - "[SS] 新西兰 V2CROSS.COM"
+      - "[SS] 新西兰 V2CROSS.COM 2"
+      - "[SS] 新西兰 V2CROSS.COM 3"
       - "[SS] 🇮🇹 _IT_意大利"
       - "[SS] 🇮🇹 _IT_意大利 (10)"
       - "[SS] 🇮🇹 _IT_意大利 (2)"
@@ -159,7 +167,6 @@ proxy-groups:
       - "[SS] 🇮🇹 _IT_意大利 (7)"
       - "[SS] 🇮🇹 _IT_意大利 (8)"
       - "[SS] 🇮🇹 _IT_意大利 (9)"
-      - "[Trojan] 🇺🇸 美国 CloudFlare节点"
   - name: 🇭🇰 香港
     type: select
     proxies:
@@ -171,7 +178,7 @@ proxy-groups:
   - name: 🇺🇲 美国
     type: select
     proxies:
-      - "[Trojan] 🇺🇸 美国 CloudFlare节点"
+      - DIRECT
   - name: 🇹🇼 台湾
     type: select
     proxies:
