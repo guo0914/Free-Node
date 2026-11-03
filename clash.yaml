@@ -8,19 +8,12 @@ hosts:
   .googleapis.cn: 142.250.196.131
   .google.cn: 142.250.196.131
 proxies:
-  - {name: "[SS] 新西兰 V2CROSS.COM", server: 202.50.253.99, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
-  - {name: "[SS] 新西兰 V2CROSS.COM 2", server: 202.50.253.45, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
-  - {name: "[SS] 新西兰 V2CROSS.COM 3", server: 202.50.253.54, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
+  - {name: "[SS] 新西兰 V2CROSS.COM", server: 202.50.253.90, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
+  - {name: "[SS] 新西兰 V2CROSS.COM 2", server: 202.50.253.72, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
+  - {name: "[SS] 新西兰 V2CROSS.COM 3", server: 202.50.253.18, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
+  - {name: "[SS] 🇬🇧 _GB_英国->🇲🇾_MY_马来西亚_IPV4", server: xunlinknode.csdjhajkshdjkas.com, port: 40006, type: ss, cipher: chacha20-ietf-poly1305, password: 28789988-887e-4e41-83cd-27bbfb7999ad, udp: true}
   - {name: "[SS] 🇮🇹 _IT_意大利_IPV4", server: 202.50.253.27, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
-  - {name: "[SS] 🇮🇹 _IT_意大利_IPV4 (10)", server: 202.50.253.72, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
   - {name: "[SS] 🇮🇹 _IT_意大利_IPV4 (2)", server: 202.50.253.36, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
-  - {name: "[SS] 🇮🇹 _IT_意大利_IPV4 (3)", server: 202.50.253.90, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
-  - {name: "[SS] 🇮🇹 _IT_意大利_IPV4 (4)", server: 202.50.253.63, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
-  - {name: "[SS] 🇮🇹 _IT_意大利_IPV4 (5)", server: 202.50.253.18, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
-  - {name: "[SS] 🇮🇹 _IT_意大利_IPV4 (6)", server: 202.50.253.54, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
-  - {name: "[SS] 🇮🇹 _IT_意大利_IPV4 (7)", server: 202.50.253.45, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
-  - {name: "[SS] 🇮🇹 _IT_意大利_IPV4 (8)", server: 202.50.253.99, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
-  - {name: "[SS] 🇮🇹 _IT_意大利_IPV4 (9)", server: 202.50.253.81, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
   - {name: "[VMess] 🇺🇸 机场推荐:dafei.de 美国 10_IPV4", server: www.shopify.com, port: 443, type: vmess, uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: guanwang.awsno.com, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: guanwang.awsno.com}}, udp: true}
 proxy-groups:
   - name: 🚀 全球互联
@@ -38,16 +31,9 @@ proxy-groups:
       - "[SS] 新西兰 V2CROSS.COM"
       - "[SS] 新西兰 V2CROSS.COM 2"
       - "[SS] 新西兰 V2CROSS.COM 3"
+      - "[SS] 🇬🇧 _GB_英国->🇲🇾_MY_马来西亚_IPV4"
       - "[SS] 🇮🇹 _IT_意大利_IPV4"
-      - "[SS] 🇮🇹 _IT_意大利_IPV4 (10)"
       - "[SS] 🇮🇹 _IT_意大利_IPV4 (2)"
-      - "[SS] 🇮🇹 _IT_意大利_IPV4 (3)"
-      - "[SS] 🇮🇹 _IT_意大利_IPV4 (4)"
-      - "[SS] 🇮🇹 _IT_意大利_IPV4 (5)"
-      - "[SS] 🇮🇹 _IT_意大利_IPV4 (6)"
-      - "[SS] 🇮🇹 _IT_意大利_IPV4 (7)"
-      - "[SS] 🇮🇹 _IT_意大利_IPV4 (8)"
-      - "[SS] 🇮🇹 _IT_意大利_IPV4 (9)"
       - "[VMess] 🇺🇸 机场推荐:dafei.de 美国 10_IPV4"
   - name: 🎥 Netflix
     type: select
@@ -60,16 +46,9 @@ proxy-groups:
       - "[SS] 新西兰 V2CROSS.COM"
       - "[SS] 新西兰 V2CROSS.COM 2"
       - "[SS] 新西兰 V2CROSS.COM 3"
+      - "[SS] 🇬🇧 _GB_英国->🇲🇾_MY_马来西亚_IPV4"
       - "[SS] 🇮🇹 _IT_意大利_IPV4"
-      - "[SS] 🇮🇹 _IT_意大利_IPV4 (10)"
       - "[SS] 🇮🇹 _IT_意大利_IPV4 (2)"
-      - "[SS] 🇮🇹 _IT_意大利_IPV4 (3)"
-      - "[SS] 🇮🇹 _IT_意大利_IPV4 (4)"
-      - "[SS] 🇮🇹 _IT_意大利_IPV4 (5)"
-      - "[SS] 🇮🇹 _IT_意大利_IPV4 (6)"
-      - "[SS] 🇮🇹 _IT_意大利_IPV4 (7)"
-      - "[SS] 🇮🇹 _IT_意大利_IPV4 (8)"
-      - "[SS] 🇮🇹 _IT_意大利_IPV4 (9)"
       - "[VMess] 🇺🇸 机场推荐:dafei.de 美国 10_IPV4"
   - name: 📹 Youtube
     type: select
@@ -82,16 +61,9 @@ proxy-groups:
       - "[SS] 新西兰 V2CROSS.COM"
       - "[SS] 新西兰 V2CROSS.COM 2"
       - "[SS] 新西兰 V2CROSS.COM 3"
+      - "[SS] 🇬🇧 _GB_英国->🇲🇾_MY_马来西亚_IPV4"
       - "[SS] 🇮🇹 _IT_意大利_IPV4"
-      - "[SS] 🇮🇹 _IT_意大利_IPV4 (10)"
       - "[SS] 🇮🇹 _IT_意大利_IPV4 (2)"
-      - "[SS] 🇮🇹 _IT_意大利_IPV4 (3)"
-      - "[SS] 🇮🇹 _IT_意大利_IPV4 (4)"
-      - "[SS] 🇮🇹 _IT_意大利_IPV4 (5)"
-      - "[SS] 🇮🇹 _IT_意大利_IPV4 (6)"
-      - "[SS] 🇮🇹 _IT_意大利_IPV4 (7)"
-      - "[SS] 🇮🇹 _IT_意大利_IPV4 (8)"
-      - "[SS] 🇮🇹 _IT_意大利_IPV4 (9)"
       - "[VMess] 🇺🇸 机场推荐:dafei.de 美国 10_IPV4"
   - name: ▶️ Disney+
     type: select
@@ -104,16 +76,9 @@ proxy-groups:
       - "[SS] 新西兰 V2CROSS.COM"
       - "[SS] 新西兰 V2CROSS.COM 2"
       - "[SS] 新西兰 V2CROSS.COM 3"
+      - "[SS] 🇬🇧 _GB_英国->🇲🇾_MY_马来西亚_IPV4"
       - "[SS] 🇮🇹 _IT_意大利_IPV4"
-      - "[SS] 🇮🇹 _IT_意大利_IPV4 (10)"
       - "[SS] 🇮🇹 _IT_意大利_IPV4 (2)"
-      - "[SS] 🇮🇹 _IT_意大利_IPV4 (3)"
-      - "[SS] 🇮🇹 _IT_意大利_IPV4 (4)"
-      - "[SS] 🇮🇹 _IT_意大利_IPV4 (5)"
-      - "[SS] 🇮🇹 _IT_意大利_IPV4 (6)"
-      - "[SS] 🇮🇹 _IT_意大利_IPV4 (7)"
-      - "[SS] 🇮🇹 _IT_意大利_IPV4 (8)"
-      - "[SS] 🇮🇹 _IT_意大利_IPV4 (9)"
       - "[VMess] 🇺🇸 机场推荐:dafei.de 美国 10_IPV4"
   - name: 🌍 国外媒体
     type: select
@@ -127,16 +92,9 @@ proxy-groups:
       - "[SS] 新西兰 V2CROSS.COM"
       - "[SS] 新西兰 V2CROSS.COM 2"
       - "[SS] 新西兰 V2CROSS.COM 3"
+      - "[SS] 🇬🇧 _GB_英国->🇲🇾_MY_马来西亚_IPV4"
       - "[SS] 🇮🇹 _IT_意大利_IPV4"
-      - "[SS] 🇮🇹 _IT_意大利_IPV4 (10)"
       - "[SS] 🇮🇹 _IT_意大利_IPV4 (2)"
-      - "[SS] 🇮🇹 _IT_意大利_IPV4 (3)"
-      - "[SS] 🇮🇹 _IT_意大利_IPV4 (4)"
-      - "[SS] 🇮🇹 _IT_意大利_IPV4 (5)"
-      - "[SS] 🇮🇹 _IT_意大利_IPV4 (6)"
-      - "[SS] 🇮🇹 _IT_意大利_IPV4 (7)"
-      - "[SS] 🇮🇹 _IT_意大利_IPV4 (8)"
-      - "[SS] 🇮🇹 _IT_意大利_IPV4 (9)"
       - "[VMess] 🇺🇸 机场推荐:dafei.de 美国 10_IPV4"
   - name: 📲 Telegram
     type: select
@@ -163,16 +121,9 @@ proxy-groups:
       - "[SS] 新西兰 V2CROSS.COM"
       - "[SS] 新西兰 V2CROSS.COM 2"
       - "[SS] 新西兰 V2CROSS.COM 3"
+      - "[SS] 🇬🇧 _GB_英国->🇲🇾_MY_马来西亚_IPV4"
       - "[SS] 🇮🇹 _IT_意大利_IPV4"
-      - "[SS] 🇮🇹 _IT_意大利_IPV4 (10)"
       - "[SS] 🇮🇹 _IT_意大利_IPV4 (2)"
-      - "[SS] 🇮🇹 _IT_意大利_IPV4 (3)"
-      - "[SS] 🇮🇹 _IT_意大利_IPV4 (4)"
-      - "[SS] 🇮🇹 _IT_意大利_IPV4 (5)"
-      - "[SS] 🇮🇹 _IT_意大利_IPV4 (6)"
-      - "[SS] 🇮🇹 _IT_意大利_IPV4 (7)"
-      - "[SS] 🇮🇹 _IT_意大利_IPV4 (8)"
-      - "[SS] 🇮🇹 _IT_意大利_IPV4 (9)"
       - "[VMess] 🇺🇸 机场推荐:dafei.de 美国 10_IPV4"
   - name: 🇭🇰 香港
     type: select
