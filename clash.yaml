@@ -8,29 +8,20 @@ hosts:
   .googleapis.cn: 142.250.196.131
   .google.cn: 142.250.196.131
 proxies:
-  - {name: "[SS] 新西兰 V2CROSS.COM", server: 202.50.253.54, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
-  - {name: "[VMess] 🇫🇷 _FR_法国_IPV6", server: 2001:bc8:32d7:1a9::3, port: 18901, type: vmess, uuid: 3a966d20-7b9d-48cc-ba2c-8d38161b6d3a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /github.com/Alvin9999-newpac/fanqiang}, udp: true}
-  - {name: "[Trojan] 🇭🇰 _HK_香港->🇺🇸_US_美国_IPV4", server: 47.75.104.211, port: 443, type: trojan, password: 8deb189a-3aed-4865-843b-b72dae954c46, sni: api.85s.me, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: api.85s.me}}, udp: true}
-  - {name: "[Trojan] 🇯🇵 _JP_日本_IPV4", server: 172.238.22.178, port: 443, type: trojan, password: 8deb189a-3aed-4865-843b-b72dae954c46, sni: api.85s.me, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: api.85s.me}}, udp: true}
-  - {name: "[Trojan] 🇯🇵 _JP_日本_IPV4 (2)", server: 172.237.1.32, port: 443, type: trojan, password: 8deb189a-3aed-4865-843b-b72dae954c46, sni: api.85s.me, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: api.85s.me}}, udp: true}
-  - {name: "[Trojan] 🇯🇵 _JP_日本_IPV4 (3)", server: 172.233.91.12, port: 443, type: trojan, password: 8deb189a-3aed-4865-843b-b72dae954c46, sni: api.85s.me, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: api.85s.me}}, udp: true}
-  - {name: "[Trojan] 🇯🇵 _JP_日本_IPV4 (4)", server: 172.238.29.97, port: 443, type: trojan, password: 8deb189a-3aed-4865-843b-b72dae954c46, sni: api.85s.me, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: api.85s.me}}, udp: true}
-  - {name: "[Trojan] 🇳🇱 _NL_荷兰_IPV4", server: 104.26.0.6, port: 443, type: trojan, password: 8deb189a-3aed-4865-843b-b72dae954c46, sni: api.85s.me, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: api.85s.me}}, udp: true}
-  - {name: "[Trojan] 🇳🇱 _NL_荷兰_IPV4 (2)", server: 104.21.0.7, port: 443, type: trojan, password: 8deb189a-3aed-4865-843b-b72dae954c46, sni: api.85s.me, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: api.85s.me}}, udp: true}
-  - {name: "[Trojan] 🇳🇱 _NL_荷兰_IPV4 (3)", server: 104.25.0.2, port: 443, type: trojan, password: 8deb189a-3aed-4865-843b-b72dae954c46, sni: api.85s.me, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: api.85s.me}}, udp: true}
+  - {name: "[SS] 新西兰 V2CROSS.COM", server: 202.50.253.90, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
+  - {name: "[SS] 新西兰 V2CROSS.COM 2", server: 202.50.253.27, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
+  - {name: "[SS] 🇮🇹 _IT_意大利_IPV4", server: 202.50.253.27, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
+  - {name: "[SS] 🇮🇹 _IT_意大利_IPV4 (2)", server: 202.50.253.36, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
+  - {name: "[SS] 🇮🇹 _IT_意大利_IPV4 (3)", server: 202.50.253.63, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
+  - {name: "[SS] 🇮🇹 _IT_意大利_IPV4 (4)", server: 202.50.253.18, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
+  - {name: "[SS] 🇮🇹 _IT_意大利_IPV4 (5)", server: 202.50.253.54, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
+  - {name: "[SS] 🇮🇹 _IT_意大利_IPV4 (6)", server: 202.50.253.45, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
+  - {name: "[SS] 🇮🇹 _IT_意大利_IPV4 (7)", server: 202.50.253.99, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
+  - {name: "[SS] 🇮🇹 _IT_意大利_IPV4 (8)", server: 202.50.253.72, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
   - {name: "[SS] 🇷🇺 俄罗斯 鞑靼斯坦喀山justhost", server: 46.17.46.27, port: 18443, type: ss, cipher: aes-256-gcm, password: cCMJgJTA3BA489YUYrFq7XHXSiSpWlLa, udp: true}
-  - {name: "[Trojan] 🇸🇬 _SG_新加坡_IPV4 (3)", server: 45.127.34.109, port: 443, type: trojan, password: 8deb189a-3aed-4865-843b-b72dae954c46, sni: api.85s.me, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: api.85s.me}}, udp: true}
-  - {name: "[Trojan] 🇸🇬 _SG_新加坡_IPV4 (4)", server: 69.8.133.223, port: 443, type: trojan, password: 8deb189a-3aed-4865-843b-b72dae954c46, sni: api.85s.me, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: api.85s.me}}, udp: true}
-  - {name: "[Trojan] 🇺🇸 _US_美国_IPV4 (10)", server: 179.255.141.59, port: 443, type: trojan, password: 8deb189a-3aed-4865-843b-b72dae954c46, sni: api.85s.me, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: api.85s.me}}, udp: true}
-  - {name: "[Trojan] 🇺🇸 _US_美国_IPV4 (11)", server: 64.186.224.154, port: 10962, type: trojan, password: 8deb189a-3aed-4865-843b-b72dae954c46, sni: api.85s.me, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: api.85s.me}}, udp: true}
-  - {name: "[Trojan] 🇺🇸 _US_美国_IPV4 (12)", server: 179.255.99.7, port: 8443, type: trojan, password: 8deb189a-3aed-4865-843b-b72dae954c46, sni: api.85s.me, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: api.85s.me}}, udp: true}
-  - {name: "[Trojan] 🇺🇸 _US_美国_IPV4 (13)", server: 179.253.239.20, port: 443, type: trojan, password: 8deb189a-3aed-4865-843b-b72dae954c46, sni: api.85s.me, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: api.85s.me}}, udp: true}
-  - {name: "[Trojan] 🇺🇸 _US_美国_IPV4 (14)", server: 179.253.231.22, port: 443, type: trojan, password: 8deb189a-3aed-4865-843b-b72dae954c46, sni: api.85s.me, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: api.85s.me}}, udp: true}
-  - {name: "[Trojan] 🇺🇸 _US_美国_IPV4 (5)", server: 179.253.238.240, port: 443, type: trojan, password: 8deb189a-3aed-4865-843b-b72dae954c46, sni: api.85s.me, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: api.85s.me}}, udp: true}
-  - {name: "[Trojan] 🇺🇸 _US_美国_IPV4 (6)", server: 179.255.103.84, port: 443, type: trojan, password: 8deb189a-3aed-4865-843b-b72dae954c46, sni: api.85s.me, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: api.85s.me}}, udp: true}
-  - {name: "[Trojan] 🇺🇸 _US_美国_IPV4 (7)", server: 179.253.231.141, port: 443, type: trojan, password: 8deb189a-3aed-4865-843b-b72dae954c46, sni: api.85s.me, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: api.85s.me}}, udp: true}
-  - {name: "[Trojan] 🇺🇸 _US_美国_IPV4 (8)", server: 104.17.0.3, port: 443, type: trojan, password: 8deb189a-3aed-4865-843b-b72dae954c46, sni: api.85s.me, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: api.85s.me}}, udp: true}
-  - {name: "[Trojan] 🇺🇸 _US_美国_IPV4 (9)", server: 104.19.0.5, port: 443, type: trojan, password: 8deb189a-3aed-4865-843b-b72dae954c46, sni: api.85s.me, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: api.85s.me}}, udp: true}
+  - {name: "[VMess] 🇺🇸 机场推荐:dafei.de 美国 10_IPV4", server: www.shopify.com, port: 443, type: vmess, uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: guanwang.awsno.com, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: guanwang.awsno.com}}, udp: true}
+  - {name: "[VMess] 🇺🇸 机场推荐:dafei.de 美国 18_IPV4", server: 172.67.190.164, port: 443, type: vmess, uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: guanwang.awsno.com, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: guanwang.awsno.com}}, udp: true}
+  - {name: "[Trojan] 🇺🇸 美国 V2CROSS.COM", server: 216.152.147.85, port: 443, type: trojan, password: 0ab6c98dae3b48e8b9c4a776b6c9c19a, sni: cdn.connectingpeoplewithgreatjobs.com, skip-cert-verify: false, udp: true}
 proxy-groups:
   - name: 🚀 全球互联
     type: select
@@ -45,28 +36,19 @@ proxy-groups:
       - 🇹🇼 台湾
       - 🇸🇬 新加坡
       - "[SS] 新西兰 V2CROSS.COM"
-      - "[VMess] 🇫🇷 _FR_法国_IPV6"
-      - "[Trojan] 🇭🇰 _HK_香港->🇺🇸_US_美国_IPV4"
-      - "[Trojan] 🇯🇵 _JP_日本_IPV4"
-      - "[Trojan] 🇯🇵 _JP_日本_IPV4 (2)"
-      - "[Trojan] 🇯🇵 _JP_日本_IPV4 (3)"
-      - "[Trojan] 🇯🇵 _JP_日本_IPV4 (4)"
-      - "[Trojan] 🇳🇱 _NL_荷兰_IPV4"
-      - "[Trojan] 🇳🇱 _NL_荷兰_IPV4 (2)"
-      - "[Trojan] 🇳🇱 _NL_荷兰_IPV4 (3)"
+      - "[SS] 新西兰 V2CROSS.COM 2"
+      - "[SS] 🇮🇹 _IT_意大利_IPV4"
+      - "[SS] 🇮🇹 _IT_意大利_IPV4 (2)"
+      - "[SS] 🇮🇹 _IT_意大利_IPV4 (3)"
+      - "[SS] 🇮🇹 _IT_意大利_IPV4 (4)"
+      - "[SS] 🇮🇹 _IT_意大利_IPV4 (5)"
+      - "[SS] 🇮🇹 _IT_意大利_IPV4 (6)"
+      - "[SS] 🇮🇹 _IT_意大利_IPV4 (7)"
+      - "[SS] 🇮🇹 _IT_意大利_IPV4 (8)"
       - "[SS] 🇷🇺 俄罗斯 鞑靼斯坦喀山justhost"
-      - "[Trojan] 🇸🇬 _SG_新加坡_IPV4 (3)"
-      - "[Trojan] 🇸🇬 _SG_新加坡_IPV4 (4)"
-      - "[Trojan] 🇺🇸 _US_美国_IPV4 (10)"
-      - "[Trojan] 🇺🇸 _US_美国_IPV4 (11)"
-      - "[Trojan] 🇺🇸 _US_美国_IPV4 (12)"
-      - "[Trojan] 🇺🇸 _US_美国_IPV4 (13)"
-      - "[Trojan] 🇺🇸 _US_美国_IPV4 (14)"
-      - "[Trojan] 🇺🇸 _US_美国_IPV4 (5)"
-      - "[Trojan] 🇺🇸 _US_美国_IPV4 (6)"
-      - "[Trojan] 🇺🇸 _US_美国_IPV4 (7)"
-      - "[Trojan] 🇺🇸 _US_美国_IPV4 (8)"
-      - "[Trojan] 🇺🇸 _US_美国_IPV4 (9)"
+      - "[VMess] 🇺🇸 机场推荐:dafei.de 美国 10_IPV4"
+      - "[VMess] 🇺🇸 机场推荐:dafei.de 美国 18_IPV4"
+      - "[Trojan] 🇺🇸 美国 V2CROSS.COM"
   - name: 🎥 Netflix
     type: select
     proxies:
@@ -76,28 +58,19 @@ proxy-groups:
       - 🇹🇼 台湾
       - 🇸🇬 新加坡
       - "[SS] 新西兰 V2CROSS.COM"
-      - "[VMess] 🇫🇷 _FR_法国_IPV6"
-      - "[Trojan] 🇭🇰 _HK_香港->🇺🇸_US_美国_IPV4"
-      - "[Trojan] 🇯🇵 _JP_日本_IPV4"
-      - "[Trojan] 🇯🇵 _JP_日本_IPV4 (2)"
-      - "[Trojan] 🇯🇵 _JP_日本_IPV4 (3)"
-      - "[Trojan] 🇯🇵 _JP_日本_IPV4 (4)"
-      - "[Trojan] 🇳🇱 _NL_荷兰_IPV4"
-      - "[Trojan] 🇳🇱 _NL_荷兰_IPV4 (2)"
-      - "[Trojan] 🇳🇱 _NL_荷兰_IPV4 (3)"
+      - "[SS] 新西兰 V2CROSS.COM 2"
+      - "[SS] 🇮🇹 _IT_意大利_IPV4"
+      - "[SS] 🇮🇹 _IT_意大利_IPV4 (2)"
+      - "[SS] 🇮🇹 _IT_意大利_IPV4 (3)"
+      - "[SS] 🇮🇹 _IT_意大利_IPV4 (4)"
+      - "[SS] 🇮🇹 _IT_意大利_IPV4 (5)"
+      - "[SS] 🇮🇹 _IT_意大利_IPV4 (6)"
+      - "[SS] 🇮🇹 _IT_意大利_IPV4 (7)"
+      - "[SS] 🇮🇹 _IT_意大利_IPV4 (8)"
       - "[SS] 🇷🇺 俄罗斯 鞑靼斯坦喀山justhost"
-      - "[Trojan] 🇸🇬 _SG_新加坡_IPV4 (3)"
-      - "[Trojan] 🇸🇬 _SG_新加坡_IPV4 (4)"
-      - "[Trojan] 🇺🇸 _US_美国_IPV4 (10)"
-      - "[Trojan] 🇺🇸 _US_美国_IPV4 (11)"
-      - "[Trojan] 🇺🇸 _US_美国_IPV4 (12)"
-      - "[Trojan] 🇺🇸 _US_美国_IPV4 (13)"
-      - "[Trojan] 🇺🇸 _US_美国_IPV4 (14)"
-      - "[Trojan] 🇺🇸 _US_美国_IPV4 (5)"
-      - "[Trojan] 🇺🇸 _US_美国_IPV4 (6)"
-      - "[Trojan] 🇺🇸 _US_美国_IPV4 (7)"
-      - "[Trojan] 🇺🇸 _US_美国_IPV4 (8)"
-      - "[Trojan] 🇺🇸 _US_美国_IPV4 (9)"
+      - "[VMess] 🇺🇸 机场推荐:dafei.de 美国 10_IPV4"
+      - "[VMess] 🇺🇸 机场推荐:dafei.de 美国 18_IPV4"
+      - "[Trojan] 🇺🇸 美国 V2CROSS.COM"
   - name: 📹 Youtube
     type: select
     proxies:
@@ -107,28 +80,19 @@ proxy-groups:
       - 🇹🇼 台湾
       - 🇸🇬 新加坡
       - "[SS] 新西兰 V2CROSS.COM"
-      - "[VMess] 🇫🇷 _FR_法国_IPV6"
-      - "[Trojan] 🇭🇰 _HK_香港->🇺🇸_US_美国_IPV4"
-      - "[Trojan] 🇯🇵 _JP_日本_IPV4"
-      - "[Trojan] 🇯🇵 _JP_日本_IPV4 (2)"
-      - "[Trojan] 🇯🇵 _JP_日本_IPV4 (3)"
-      - "[Trojan] 🇯🇵 _JP_日本_IPV4 (4)"
-      - "[Trojan] 🇳🇱 _NL_荷兰_IPV4"
-      - "[Trojan] 🇳🇱 _NL_荷兰_IPV4 (2)"
-      - "[Trojan] 🇳🇱 _NL_荷兰_IPV4 (3)"
+      - "[SS] 新西兰 V2CROSS.COM 2"
+      - "[SS] 🇮🇹 _IT_意大利_IPV4"
+      - "[SS] 🇮🇹 _IT_意大利_IPV4 (2)"
+      - "[SS] 🇮🇹 _IT_意大利_IPV4 (3)"
+      - "[SS] 🇮🇹 _IT_意大利_IPV4 (4)"
+      - "[SS] 🇮🇹 _IT_意大利_IPV4 (5)"
+      - "[SS] 🇮🇹 _IT_意大利_IPV4 (6)"
+      - "[SS] 🇮🇹 _IT_意大利_IPV4 (7)"
+      - "[SS] 🇮🇹 _IT_意大利_IPV4 (8)"
       - "[SS] 🇷🇺 俄罗斯 鞑靼斯坦喀山justhost"
-      - "[Trojan] 🇸🇬 _SG_新加坡_IPV4 (3)"
-      - "[Trojan] 🇸🇬 _SG_新加坡_IPV4 (4)"
-      - "[Trojan] 🇺🇸 _US_美国_IPV4 (10)"
-      - "[Trojan] 🇺🇸 _US_美国_IPV4 (11)"
-      - "[Trojan] 🇺🇸 _US_美国_IPV4 (12)"
-      - "[Trojan] 🇺🇸 _US_美国_IPV4 (13)"
-      - "[Trojan] 🇺🇸 _US_美国_IPV4 (14)"
-      - "[Trojan] 🇺🇸 _US_美国_IPV4 (5)"
-      - "[Trojan] 🇺🇸 _US_美国_IPV4 (6)"
-      - "[Trojan] 🇺🇸 _US_美国_IPV4 (7)"
-      - "[Trojan] 🇺🇸 _US_美国_IPV4 (8)"
-      - "[Trojan] 🇺🇸 _US_美国_IPV4 (9)"
+      - "[VMess] 🇺🇸 机场推荐:dafei.de 美国 10_IPV4"
+      - "[VMess] 🇺🇸 机场推荐:dafei.de 美国 18_IPV4"
+      - "[Trojan] 🇺🇸 美国 V2CROSS.COM"
   - name: ▶️ Disney+
     type: select
     proxies:
@@ -138,28 +102,19 @@ proxy-groups:
       - 🇹🇼 台湾
       - 🇸🇬 新加坡
       - "[SS] 新西兰 V2CROSS.COM"
-      - "[VMess] 🇫🇷 _FR_法国_IPV6"
-      - "[Trojan] 🇭🇰 _HK_香港->🇺🇸_US_美国_IPV4"
-      - "[Trojan] 🇯🇵 _JP_日本_IPV4"
-      - "[Trojan] 🇯🇵 _JP_日本_IPV4 (2)"
-      - "[Trojan] 🇯🇵 _JP_日本_IPV4 (3)"
-      - "[Trojan] 🇯🇵 _JP_日本_IPV4 (4)"
-      - "[Trojan] 🇳🇱 _NL_荷兰_IPV4"
-      - "[Trojan] 🇳🇱 _NL_荷兰_IPV4 (2)"
-      - "[Trojan] 🇳🇱 _NL_荷兰_IPV4 (3)"
+      - "[SS] 新西兰 V2CROSS.COM 2"
+      - "[SS] 🇮🇹 _IT_意大利_IPV4"
+      - "[SS] 🇮🇹 _IT_意大利_IPV4 (2)"
+      - "[SS] 🇮🇹 _IT_意大利_IPV4 (3)"
+      - "[SS] 🇮🇹 _IT_意大利_IPV4 (4)"
+      - "[SS] 🇮🇹 _IT_意大利_IPV4 (5)"
+      - "[SS] 🇮🇹 _IT_意大利_IPV4 (6)"
+      - "[SS] 🇮🇹 _IT_意大利_IPV4 (7)"
+      - "[SS] 🇮🇹 _IT_意大利_IPV4 (8)"
       - "[SS] 🇷🇺 俄罗斯 鞑靼斯坦喀山justhost"
-      - "[Trojan] 🇸🇬 _SG_新加坡_IPV4 (3)"
-      - "[Trojan] 🇸🇬 _SG_新加坡_IPV4 (4)"
-      - "[Trojan] 🇺🇸 _US_美国_IPV4 (10)"
-      - "[Trojan] 🇺🇸 _US_美国_IPV4 (11)"
-      - "[Trojan] 🇺🇸 _US_美国_IPV4 (12)"
-      - "[Trojan] 🇺🇸 _US_美国_IPV4 (13)"
-      - "[Trojan] 🇺🇸 _US_美国_IPV4 (14)"
-      - "[Trojan] 🇺🇸 _US_美国_IPV4 (5)"
-      - "[Trojan] 🇺🇸 _US_美国_IPV4 (6)"
-      - "[Trojan] 🇺🇸 _US_美国_IPV4 (7)"
-      - "[Trojan] 🇺🇸 _US_美国_IPV4 (8)"
-      - "[Trojan] 🇺🇸 _US_美国_IPV4 (9)"
+      - "[VMess] 🇺🇸 机场推荐:dafei.de 美国 10_IPV4"
+      - "[VMess] 🇺🇸 机场推荐:dafei.de 美国 18_IPV4"
+      - "[Trojan] 🇺🇸 美国 V2CROSS.COM"
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -170,28 +125,19 @@ proxy-groups:
       - 🇹🇼 台湾
       - 🇸🇬 新加坡
       - "[SS] 新西兰 V2CROSS.COM"
-      - "[VMess] 🇫🇷 _FR_法国_IPV6"
-      - "[Trojan] 🇭🇰 _HK_香港->🇺🇸_US_美国_IPV4"
-      - "[Trojan] 🇯🇵 _JP_日本_IPV4"
-      - "[Trojan] 🇯🇵 _JP_日本_IPV4 (2)"
-      - "[Trojan] 🇯🇵 _JP_日本_IPV4 (3)"
-      - "[Trojan] 🇯🇵 _JP_日本_IPV4 (4)"
-      - "[Trojan] 🇳🇱 _NL_荷兰_IPV4"
-      - "[Trojan] 🇳🇱 _NL_荷兰_IPV4 (2)"
-      - "[Trojan] 🇳🇱 _NL_荷兰_IPV4 (3)"
+      - "[SS] 新西兰 V2CROSS.COM 2"
+      - "[SS] 🇮🇹 _IT_意大利_IPV4"
+      - "[SS] 🇮🇹 _IT_意大利_IPV4 (2)"
+      - "[SS] 🇮🇹 _IT_意大利_IPV4 (3)"
+      - "[SS] 🇮🇹 _IT_意大利_IPV4 (4)"
+      - "[SS] 🇮🇹 _IT_意大利_IPV4 (5)"
+      - "[SS] 🇮🇹 _IT_意大利_IPV4 (6)"
+      - "[SS] 🇮🇹 _IT_意大利_IPV4 (7)"
+      - "[SS] 🇮🇹 _IT_意大利_IPV4 (8)"
       - "[SS] 🇷🇺 俄罗斯 鞑靼斯坦喀山justhost"
-      - "[Trojan] 🇸🇬 _SG_新加坡_IPV4 (3)"
-      - "[Trojan] 🇸🇬 _SG_新加坡_IPV4 (4)"
-      - "[Trojan] 🇺🇸 _US_美国_IPV4 (10)"
-      - "[Trojan] 🇺🇸 _US_美国_IPV4 (11)"
-      - "[Trojan] 🇺🇸 _US_美国_IPV4 (12)"
-      - "[Trojan] 🇺🇸 _US_美国_IPV4 (13)"
-      - "[Trojan] 🇺🇸 _US_美国_IPV4 (14)"
-      - "[Trojan] 🇺🇸 _US_美国_IPV4 (5)"
-      - "[Trojan] 🇺🇸 _US_美国_IPV4 (6)"
-      - "[Trojan] 🇺🇸 _US_美国_IPV4 (7)"
-      - "[Trojan] 🇺🇸 _US_美国_IPV4 (8)"
-      - "[Trojan] 🇺🇸 _US_美国_IPV4 (9)"
+      - "[VMess] 🇺🇸 机场推荐:dafei.de 美国 10_IPV4"
+      - "[VMess] 🇺🇸 机场推荐:dafei.de 美国 18_IPV4"
+      - "[Trojan] 🇺🇸 美国 V2CROSS.COM"
   - name: 📲 Telegram
     type: select
     proxies:
@@ -205,7 +151,6 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
-      - "[Trojan] 🇭🇰 _HK_香港->🇺🇸_US_美国_IPV4"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -216,53 +161,33 @@ proxy-groups:
       - 🇹🇼 台湾
       - 🇸🇬 新加坡
       - "[SS] 新西兰 V2CROSS.COM"
-      - "[VMess] 🇫🇷 _FR_法国_IPV6"
-      - "[Trojan] 🇭🇰 _HK_香港->🇺🇸_US_美国_IPV4"
-      - "[Trojan] 🇯🇵 _JP_日本_IPV4"
-      - "[Trojan] 🇯🇵 _JP_日本_IPV4 (2)"
-      - "[Trojan] 🇯🇵 _JP_日本_IPV4 (3)"
-      - "[Trojan] 🇯🇵 _JP_日本_IPV4 (4)"
-      - "[Trojan] 🇳🇱 _NL_荷兰_IPV4"
-      - "[Trojan] 🇳🇱 _NL_荷兰_IPV4 (2)"
-      - "[Trojan] 🇳🇱 _NL_荷兰_IPV4 (3)"
+      - "[SS] 新西兰 V2CROSS.COM 2"
+      - "[SS] 🇮🇹 _IT_意大利_IPV4"
+      - "[SS] 🇮🇹 _IT_意大利_IPV4 (2)"
+      - "[SS] 🇮🇹 _IT_意大利_IPV4 (3)"
+      - "[SS] 🇮🇹 _IT_意大利_IPV4 (4)"
+      - "[SS] 🇮🇹 _IT_意大利_IPV4 (5)"
+      - "[SS] 🇮🇹 _IT_意大利_IPV4 (6)"
+      - "[SS] 🇮🇹 _IT_意大利_IPV4 (7)"
+      - "[SS] 🇮🇹 _IT_意大利_IPV4 (8)"
       - "[SS] 🇷🇺 俄罗斯 鞑靼斯坦喀山justhost"
-      - "[Trojan] 🇸🇬 _SG_新加坡_IPV4 (3)"
-      - "[Trojan] 🇸🇬 _SG_新加坡_IPV4 (4)"
-      - "[Trojan] 🇺🇸 _US_美国_IPV4 (10)"
-      - "[Trojan] 🇺🇸 _US_美国_IPV4 (11)"
-      - "[Trojan] 🇺🇸 _US_美国_IPV4 (12)"
-      - "[Trojan] 🇺🇸 _US_美国_IPV4 (13)"
-      - "[Trojan] 🇺🇸 _US_美国_IPV4 (14)"
-      - "[Trojan] 🇺🇸 _US_美国_IPV4 (5)"
-      - "[Trojan] 🇺🇸 _US_美国_IPV4 (6)"
-      - "[Trojan] 🇺🇸 _US_美国_IPV4 (7)"
-      - "[Trojan] 🇺🇸 _US_美国_IPV4 (8)"
-      - "[Trojan] 🇺🇸 _US_美国_IPV4 (9)"
+      - "[VMess] 🇺🇸 机场推荐:dafei.de 美国 10_IPV4"
+      - "[VMess] 🇺🇸 机场推荐:dafei.de 美国 18_IPV4"
+      - "[Trojan] 🇺🇸 美国 V2CROSS.COM"
   - name: 🇭🇰 香港
     type: select
     proxies:
-      - "[Trojan] 🇭🇰 _HK_香港->🇺🇸_US_美国_IPV4"
+      - DIRECT
   - name: 🇯🇵 日本
     type: select
     proxies:
-      - "[Trojan] 🇯🇵 _JP_日本_IPV4"
-      - "[Trojan] 🇯🇵 _JP_日本_IPV4 (2)"
-      - "[Trojan] 🇯🇵 _JP_日本_IPV4 (3)"
-      - "[Trojan] 🇯🇵 _JP_日本_IPV4 (4)"
+      - DIRECT
   - name: 🇺🇲 美国
     type: select
     proxies:
-      - "[Trojan] 🇭🇰 _HK_香港->🇺🇸_US_美国_IPV4"
-      - "[Trojan] 🇺🇸 _US_美国_IPV4 (10)"
-      - "[Trojan] 🇺🇸 _US_美国_IPV4 (11)"
-      - "[Trojan] 🇺🇸 _US_美国_IPV4 (12)"
-      - "[Trojan] 🇺🇸 _US_美国_IPV4 (13)"
-      - "[Trojan] 🇺🇸 _US_美国_IPV4 (14)"
-      - "[Trojan] 🇺🇸 _US_美国_IPV4 (5)"
-      - "[Trojan] 🇺🇸 _US_美国_IPV4 (6)"
-      - "[Trojan] 🇺🇸 _US_美国_IPV4 (7)"
-      - "[Trojan] 🇺🇸 _US_美国_IPV4 (8)"
-      - "[Trojan] 🇺🇸 _US_美国_IPV4 (9)"
+      - "[VMess] 🇺🇸 机场推荐:dafei.de 美国 10_IPV4"
+      - "[VMess] 🇺🇸 机场推荐:dafei.de 美国 18_IPV4"
+      - "[Trojan] 🇺🇸 美国 V2CROSS.COM"
   - name: 🇹🇼 台湾
     type: select
     proxies:
@@ -270,8 +195,7 @@ proxy-groups:
   - name: 🇸🇬 新加坡
     type: select
     proxies:
-      - "[Trojan] 🇸🇬 _SG_新加坡_IPV4 (3)"
-      - "[Trojan] 🇸🇬 _SG_新加坡_IPV4 (4)"
+      - DIRECT
   - name: 🛑 广告拦截
     type: select
     proxies:
