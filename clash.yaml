@@ -8,8 +8,12 @@ hosts:
   .googleapis.cn: 142.250.196.131
   .google.cn: 142.250.196.131
 proxies:
-  - {name: "[SS] 新西兰 V2CROSS.COM", server: 202.50.253.90, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
-  - {name: "[SS] 新西兰 V2CROSS.COM 2", server: 202.50.253.27, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
+  - {name: "[SS] 新西兰 V2CROSS.COM", server: 202.50.253.27, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
+  - {name: "[SS] 新西兰 V2CROSS.COM 2", server: 202.50.253.72, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
+  - {name: "[SS] 新西兰 V2CROSS.COM 3", server: 202.50.253.81, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
+  - {name: "[SS] 新西兰 V2CROSS.COM 4", server: 202.50.253.36, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
+  - {name: "[SS] 新西兰 V2CROSS.COM 5", server: 202.50.253.99, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
+  - {name: "[VMess] 🇧🇷 巴西圣保罗 CloudFlare节点", server: 188.114.97.6, port: 80, type: vmess, uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/ws?ed", headers: {Host: vmess.lbw666.dpdns.org}}, udp: true}
   - {name: "[SS] 🇮🇹 _IT_意大利_IPV4", server: 202.50.253.27, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
   - {name: "[SS] 🇮🇹 _IT_意大利_IPV4 (2)", server: 202.50.253.36, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
   - {name: "[SS] 🇮🇹 _IT_意大利_IPV4 (3)", server: 202.50.253.63, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
@@ -18,10 +22,9 @@ proxies:
   - {name: "[SS] 🇮🇹 _IT_意大利_IPV4 (6)", server: 202.50.253.45, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
   - {name: "[SS] 🇮🇹 _IT_意大利_IPV4 (7)", server: 202.50.253.99, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
   - {name: "[SS] 🇮🇹 _IT_意大利_IPV4 (8)", server: 202.50.253.72, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
-  - {name: "[SS] 🇷🇺 俄罗斯 鞑靼斯坦喀山justhost", server: 46.17.46.27, port: 18443, type: ss, cipher: aes-256-gcm, password: cCMJgJTA3BA489YUYrFq7XHXSiSpWlLa, udp: true}
   - {name: "[VMess] 🇺🇸 机场推荐:dafei.de 美国 10_IPV4", server: www.shopify.com, port: 443, type: vmess, uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: guanwang.awsno.com, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: guanwang.awsno.com}}, udp: true}
   - {name: "[VMess] 🇺🇸 机场推荐:dafei.de 美国 18_IPV4", server: 172.67.190.164, port: 443, type: vmess, uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: guanwang.awsno.com, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: guanwang.awsno.com}}, udp: true}
-  - {name: "[Trojan] 🇺🇸 美国 V2CROSS.COM", server: 216.152.147.85, port: 443, type: trojan, password: 0ab6c98dae3b48e8b9c4a776b6c9c19a, sni: cdn.connectingpeoplewithgreatjobs.com, skip-cert-verify: false, udp: true}
+  - {name: "[SS] 🇺🇸 美国 V2CROSS.COM", server: 154.36.158.197, port: 8388, type: ss, cipher: aes-256-gcm, password: BeaUf9c0AEWH40Pu, udp: true}
 proxy-groups:
   - name: 🚀 全球互联
     type: select
@@ -37,6 +40,10 @@ proxy-groups:
       - 🇸🇬 新加坡
       - "[SS] 新西兰 V2CROSS.COM"
       - "[SS] 新西兰 V2CROSS.COM 2"
+      - "[SS] 新西兰 V2CROSS.COM 3"
+      - "[SS] 新西兰 V2CROSS.COM 4"
+      - "[SS] 新西兰 V2CROSS.COM 5"
+      - "[VMess] 🇧🇷 巴西圣保罗 CloudFlare节点"
       - "[SS] 🇮🇹 _IT_意大利_IPV4"
       - "[SS] 🇮🇹 _IT_意大利_IPV4 (2)"
       - "[SS] 🇮🇹 _IT_意大利_IPV4 (3)"
@@ -45,10 +52,9 @@ proxy-groups:
       - "[SS] 🇮🇹 _IT_意大利_IPV4 (6)"
       - "[SS] 🇮🇹 _IT_意大利_IPV4 (7)"
       - "[SS] 🇮🇹 _IT_意大利_IPV4 (8)"
-      - "[SS] 🇷🇺 俄罗斯 鞑靼斯坦喀山justhost"
       - "[VMess] 🇺🇸 机场推荐:dafei.de 美国 10_IPV4"
       - "[VMess] 🇺🇸 机场推荐:dafei.de 美国 18_IPV4"
-      - "[Trojan] 🇺🇸 美国 V2CROSS.COM"
+      - "[SS] 🇺🇸 美国 V2CROSS.COM"
   - name: 🎥 Netflix
     type: select
     proxies:
@@ -59,6 +65,10 @@ proxy-groups:
       - 🇸🇬 新加坡
       - "[SS] 新西兰 V2CROSS.COM"
       - "[SS] 新西兰 V2CROSS.COM 2"
+      - "[SS] 新西兰 V2CROSS.COM 3"
+      - "[SS] 新西兰 V2CROSS.COM 4"
+      - "[SS] 新西兰 V2CROSS.COM 5"
+      - "[VMess] 🇧🇷 巴西圣保罗 CloudFlare节点"
       - "[SS] 🇮🇹 _IT_意大利_IPV4"
       - "[SS] 🇮🇹 _IT_意大利_IPV4 (2)"
       - "[SS] 🇮🇹 _IT_意大利_IPV4 (3)"
@@ -67,10 +77,9 @@ proxy-groups:
       - "[SS] 🇮🇹 _IT_意大利_IPV4 (6)"
       - "[SS] 🇮🇹 _IT_意大利_IPV4 (7)"
       - "[SS] 🇮🇹 _IT_意大利_IPV4 (8)"
-      - "[SS] 🇷🇺 俄罗斯 鞑靼斯坦喀山justhost"
       - "[VMess] 🇺🇸 机场推荐:dafei.de 美国 10_IPV4"
       - "[VMess] 🇺🇸 机场推荐:dafei.de 美国 18_IPV4"
-      - "[Trojan] 🇺🇸 美国 V2CROSS.COM"
+      - "[SS] 🇺🇸 美国 V2CROSS.COM"
   - name: 📹 Youtube
     type: select
     proxies:
@@ -81,6 +90,10 @@ proxy-groups:
       - 🇸🇬 新加坡
       - "[SS] 新西兰 V2CROSS.COM"
       - "[SS] 新西兰 V2CROSS.COM 2"
+      - "[SS] 新西兰 V2CROSS.COM 3"
+      - "[SS] 新西兰 V2CROSS.COM 4"
+      - "[SS] 新西兰 V2CROSS.COM 5"
+      - "[VMess] 🇧🇷 巴西圣保罗 CloudFlare节点"
       - "[SS] 🇮🇹 _IT_意大利_IPV4"
       - "[SS] 🇮🇹 _IT_意大利_IPV4 (2)"
       - "[SS] 🇮🇹 _IT_意大利_IPV4 (3)"
@@ -89,10 +102,9 @@ proxy-groups:
       - "[SS] 🇮🇹 _IT_意大利_IPV4 (6)"
       - "[SS] 🇮🇹 _IT_意大利_IPV4 (7)"
       - "[SS] 🇮🇹 _IT_意大利_IPV4 (8)"
-      - "[SS] 🇷🇺 俄罗斯 鞑靼斯坦喀山justhost"
       - "[VMess] 🇺🇸 机场推荐:dafei.de 美国 10_IPV4"
       - "[VMess] 🇺🇸 机场推荐:dafei.de 美国 18_IPV4"
-      - "[Trojan] 🇺🇸 美国 V2CROSS.COM"
+      - "[SS] 🇺🇸 美国 V2CROSS.COM"
   - name: ▶️ Disney+
     type: select
     proxies:
@@ -103,6 +115,10 @@ proxy-groups:
       - 🇸🇬 新加坡
       - "[SS] 新西兰 V2CROSS.COM"
       - "[SS] 新西兰 V2CROSS.COM 2"
+      - "[SS] 新西兰 V2CROSS.COM 3"
+      - "[SS] 新西兰 V2CROSS.COM 4"
+      - "[SS] 新西兰 V2CROSS.COM 5"
+      - "[VMess] 🇧🇷 巴西圣保罗 CloudFlare节点"
       - "[SS] 🇮🇹 _IT_意大利_IPV4"
       - "[SS] 🇮🇹 _IT_意大利_IPV4 (2)"
       - "[SS] 🇮🇹 _IT_意大利_IPV4 (3)"
@@ -111,10 +127,9 @@ proxy-groups:
       - "[SS] 🇮🇹 _IT_意大利_IPV4 (6)"
       - "[SS] 🇮🇹 _IT_意大利_IPV4 (7)"
       - "[SS] 🇮🇹 _IT_意大利_IPV4 (8)"
-      - "[SS] 🇷🇺 俄罗斯 鞑靼斯坦喀山justhost"
       - "[VMess] 🇺🇸 机场推荐:dafei.de 美国 10_IPV4"
       - "[VMess] 🇺🇸 机场推荐:dafei.de 美国 18_IPV4"
-      - "[Trojan] 🇺🇸 美国 V2CROSS.COM"
+      - "[SS] 🇺🇸 美国 V2CROSS.COM"
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -126,6 +141,10 @@ proxy-groups:
       - 🇸🇬 新加坡
       - "[SS] 新西兰 V2CROSS.COM"
       - "[SS] 新西兰 V2CROSS.COM 2"
+      - "[SS] 新西兰 V2CROSS.COM 3"
+      - "[SS] 新西兰 V2CROSS.COM 4"
+      - "[SS] 新西兰 V2CROSS.COM 5"
+      - "[VMess] 🇧🇷 巴西圣保罗 CloudFlare节点"
       - "[SS] 🇮🇹 _IT_意大利_IPV4"
       - "[SS] 🇮🇹 _IT_意大利_IPV4 (2)"
       - "[SS] 🇮🇹 _IT_意大利_IPV4 (3)"
@@ -134,10 +153,9 @@ proxy-groups:
       - "[SS] 🇮🇹 _IT_意大利_IPV4 (6)"
       - "[SS] 🇮🇹 _IT_意大利_IPV4 (7)"
       - "[SS] 🇮🇹 _IT_意大利_IPV4 (8)"
-      - "[SS] 🇷🇺 俄罗斯 鞑靼斯坦喀山justhost"
       - "[VMess] 🇺🇸 机场推荐:dafei.de 美国 10_IPV4"
       - "[VMess] 🇺🇸 机场推荐:dafei.de 美国 18_IPV4"
-      - "[Trojan] 🇺🇸 美国 V2CROSS.COM"
+      - "[SS] 🇺🇸 美国 V2CROSS.COM"
   - name: 📲 Telegram
     type: select
     proxies:
@@ -162,6 +180,10 @@ proxy-groups:
       - 🇸🇬 新加坡
       - "[SS] 新西兰 V2CROSS.COM"
       - "[SS] 新西兰 V2CROSS.COM 2"
+      - "[SS] 新西兰 V2CROSS.COM 3"
+      - "[SS] 新西兰 V2CROSS.COM 4"
+      - "[SS] 新西兰 V2CROSS.COM 5"
+      - "[VMess] 🇧🇷 巴西圣保罗 CloudFlare节点"
       - "[SS] 🇮🇹 _IT_意大利_IPV4"
       - "[SS] 🇮🇹 _IT_意大利_IPV4 (2)"
       - "[SS] 🇮🇹 _IT_意大利_IPV4 (3)"
@@ -170,10 +192,9 @@ proxy-groups:
       - "[SS] 🇮🇹 _IT_意大利_IPV4 (6)"
       - "[SS] 🇮🇹 _IT_意大利_IPV4 (7)"
       - "[SS] 🇮🇹 _IT_意大利_IPV4 (8)"
-      - "[SS] 🇷🇺 俄罗斯 鞑靼斯坦喀山justhost"
       - "[VMess] 🇺🇸 机场推荐:dafei.de 美国 10_IPV4"
       - "[VMess] 🇺🇸 机场推荐:dafei.de 美国 18_IPV4"
-      - "[Trojan] 🇺🇸 美国 V2CROSS.COM"
+      - "[SS] 🇺🇸 美国 V2CROSS.COM"
   - name: 🇭🇰 香港
     type: select
     proxies:
@@ -187,7 +208,7 @@ proxy-groups:
     proxies:
       - "[VMess] 🇺🇸 机场推荐:dafei.de 美国 10_IPV4"
       - "[VMess] 🇺🇸 机场推荐:dafei.de 美国 18_IPV4"
-      - "[Trojan] 🇺🇸 美国 V2CROSS.COM"
+      - "[SS] 🇺🇸 美国 V2CROSS.COM"
   - name: 🇹🇼 台湾
     type: select
     proxies:
