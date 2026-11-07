@@ -8,6 +8,7 @@ hosts:
   .googleapis.cn: 142.250.196.131
   .google.cn: 142.250.196.131
 proxies:
+  - {name: "[SS] 新西兰 V2CROSS.COM", server: 202.50.253.27, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
   - {name: "[SS] 🇮🇹 _IT_意大利_IPV4", server: 202.50.253.27, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
   - {name: "[SS] 🇮🇹 _IT_意大利_IPV4 (10)", server: 202.50.253.72, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
   - {name: "[SS] 🇮🇹 _IT_意大利_IPV4 (2)", server: 202.50.253.36, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
@@ -18,10 +19,7 @@ proxies:
   - {name: "[SS] 🇮🇹 _IT_意大利_IPV4 (7)", server: 202.50.253.45, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
   - {name: "[SS] 🇮🇹 _IT_意大利_IPV4 (8)", server: 202.50.253.99, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
   - {name: "[SS] 🇮🇹 _IT_意大利_IPV4 (9)", server: 202.50.253.81, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
-  - {name: "[Trojan] 🇸🇪 瑞典 V2CROSS.COM", server: 167.88.61.175, port: 443, type: trojan, password: 0ab6c98dae3b48e8b9c4a776b6c9c19a, sni: blog.browseseniorrolesandenhanceyourcareertoday.com, skip-cert-verify: false, udp: true}
-  - {name: "[Trojan] 🇸🇪 瑞典 V2CROSS.COM 2", server: 167.88.61.175, port: 443, type: trojan, password: 0ab6c98dae3b48e8b9c4a776b6c9c19a, sni: blog.browseseniorrolesandenhanceyourcareertoday.com, skip-cert-verify: false, udp: true}
   - {name: "[VMess] 🇺🇸 美国 CloudFlare节点_IPV4", server: 104.17.77.77, port: 8443, type: vmess, uuid: 60441548-b68e-43b2-8191-e3b884be4b3c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: v2ray1.dozapp.xyz, network: ws, ws-opts: {path: /lMnsZUN4/, headers: {Host: v2ray1.dozapp.xyz}}, udp: true}
-  - {name: "[SS] 🇺🇸 美国 V2CROSS.COM", server: 154.36.158.197, port: 8388, type: ss, cipher: aes-256-gcm, password: BeaUf9c0AEWH40Pu, udp: true}
 proxy-groups:
   - name: 🚀 全球互联
     type: select
@@ -35,6 +33,7 @@ proxy-groups:
       - 🇺🇲 美国
       - 🇹🇼 台湾
       - 🇸🇬 新加坡
+      - "[SS] 新西兰 V2CROSS.COM"
       - "[SS] 🇮🇹 _IT_意大利_IPV4"
       - "[SS] 🇮🇹 _IT_意大利_IPV4 (10)"
       - "[SS] 🇮🇹 _IT_意大利_IPV4 (2)"
@@ -45,10 +44,7 @@ proxy-groups:
       - "[SS] 🇮🇹 _IT_意大利_IPV4 (7)"
       - "[SS] 🇮🇹 _IT_意大利_IPV4 (8)"
       - "[SS] 🇮🇹 _IT_意大利_IPV4 (9)"
-      - "[Trojan] 🇸🇪 瑞典 V2CROSS.COM"
-      - "[Trojan] 🇸🇪 瑞典 V2CROSS.COM 2"
       - "[VMess] 🇺🇸 美国 CloudFlare节点_IPV4"
-      - "[SS] 🇺🇸 美国 V2CROSS.COM"
   - name: 🎥 Netflix
     type: select
     proxies:
@@ -57,6 +53,7 @@ proxy-groups:
       - 🇺🇲 美国
       - 🇹🇼 台湾
       - 🇸🇬 新加坡
+      - "[SS] 新西兰 V2CROSS.COM"
       - "[SS] 🇮🇹 _IT_意大利_IPV4"
       - "[SS] 🇮🇹 _IT_意大利_IPV4 (10)"
       - "[SS] 🇮🇹 _IT_意大利_IPV4 (2)"
@@ -67,10 +64,7 @@ proxy-groups:
       - "[SS] 🇮🇹 _IT_意大利_IPV4 (7)"
       - "[SS] 🇮🇹 _IT_意大利_IPV4 (8)"
       - "[SS] 🇮🇹 _IT_意大利_IPV4 (9)"
-      - "[Trojan] 🇸🇪 瑞典 V2CROSS.COM"
-      - "[Trojan] 🇸🇪 瑞典 V2CROSS.COM 2"
       - "[VMess] 🇺🇸 美国 CloudFlare节点_IPV4"
-      - "[SS] 🇺🇸 美国 V2CROSS.COM"
   - name: 📹 Youtube
     type: select
     proxies:
@@ -79,6 +73,7 @@ proxy-groups:
       - 🇺🇲 美国
       - 🇹🇼 台湾
       - 🇸🇬 新加坡
+      - "[SS] 新西兰 V2CROSS.COM"
       - "[SS] 🇮🇹 _IT_意大利_IPV4"
       - "[SS] 🇮🇹 _IT_意大利_IPV4 (10)"
       - "[SS] 🇮🇹 _IT_意大利_IPV4 (2)"
@@ -89,10 +84,7 @@ proxy-groups:
       - "[SS] 🇮🇹 _IT_意大利_IPV4 (7)"
       - "[SS] 🇮🇹 _IT_意大利_IPV4 (8)"
       - "[SS] 🇮🇹 _IT_意大利_IPV4 (9)"
-      - "[Trojan] 🇸🇪 瑞典 V2CROSS.COM"
-      - "[Trojan] 🇸🇪 瑞典 V2CROSS.COM 2"
       - "[VMess] 🇺🇸 美国 CloudFlare节点_IPV4"
-      - "[SS] 🇺🇸 美国 V2CROSS.COM"
   - name: ▶️ Disney+
     type: select
     proxies:
@@ -101,6 +93,7 @@ proxy-groups:
       - 🇺🇲 美国
       - 🇹🇼 台湾
       - 🇸🇬 新加坡
+      - "[SS] 新西兰 V2CROSS.COM"
       - "[SS] 🇮🇹 _IT_意大利_IPV4"
       - "[SS] 🇮🇹 _IT_意大利_IPV4 (10)"
       - "[SS] 🇮🇹 _IT_意大利_IPV4 (2)"
@@ -111,10 +104,7 @@ proxy-groups:
       - "[SS] 🇮🇹 _IT_意大利_IPV4 (7)"
       - "[SS] 🇮🇹 _IT_意大利_IPV4 (8)"
       - "[SS] 🇮🇹 _IT_意大利_IPV4 (9)"
-      - "[Trojan] 🇸🇪 瑞典 V2CROSS.COM"
-      - "[Trojan] 🇸🇪 瑞典 V2CROSS.COM 2"
       - "[VMess] 🇺🇸 美国 CloudFlare节点_IPV4"
-      - "[SS] 🇺🇸 美国 V2CROSS.COM"
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -124,6 +114,7 @@ proxy-groups:
       - 🇺🇲 美国
       - 🇹🇼 台湾
       - 🇸🇬 新加坡
+      - "[SS] 新西兰 V2CROSS.COM"
       - "[SS] 🇮🇹 _IT_意大利_IPV4"
       - "[SS] 🇮🇹 _IT_意大利_IPV4 (10)"
       - "[SS] 🇮🇹 _IT_意大利_IPV4 (2)"
@@ -134,10 +125,7 @@ proxy-groups:
       - "[SS] 🇮🇹 _IT_意大利_IPV4 (7)"
       - "[SS] 🇮🇹 _IT_意大利_IPV4 (8)"
       - "[SS] 🇮🇹 _IT_意大利_IPV4 (9)"
-      - "[Trojan] 🇸🇪 瑞典 V2CROSS.COM"
-      - "[Trojan] 🇸🇪 瑞典 V2CROSS.COM 2"
       - "[VMess] 🇺🇸 美国 CloudFlare节点_IPV4"
-      - "[SS] 🇺🇸 美国 V2CROSS.COM"
   - name: 📲 Telegram
     type: select
     proxies:
@@ -160,6 +148,7 @@ proxy-groups:
       - 🇺🇲 美国
       - 🇹🇼 台湾
       - 🇸🇬 新加坡
+      - "[SS] 新西兰 V2CROSS.COM"
       - "[SS] 🇮🇹 _IT_意大利_IPV4"
       - "[SS] 🇮🇹 _IT_意大利_IPV4 (10)"
       - "[SS] 🇮🇹 _IT_意大利_IPV4 (2)"
@@ -170,10 +159,7 @@ proxy-groups:
       - "[SS] 🇮🇹 _IT_意大利_IPV4 (7)"
       - "[SS] 🇮🇹 _IT_意大利_IPV4 (8)"
       - "[SS] 🇮🇹 _IT_意大利_IPV4 (9)"
-      - "[Trojan] 🇸🇪 瑞典 V2CROSS.COM"
-      - "[Trojan] 🇸🇪 瑞典 V2CROSS.COM 2"
       - "[VMess] 🇺🇸 美国 CloudFlare节点_IPV4"
-      - "[SS] 🇺🇸 美国 V2CROSS.COM"
   - name: 🇭🇰 香港
     type: select
     proxies:
@@ -186,7 +172,6 @@ proxy-groups:
     type: select
     proxies:
       - "[VMess] 🇺🇸 美国 CloudFlare节点_IPV4"
-      - "[SS] 🇺🇸 美国 V2CROSS.COM"
   - name: 🇹🇼 台湾
     type: select
     proxies:
