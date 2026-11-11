@@ -9,8 +9,9 @@ hosts:
   .google.cn: 142.250.196.131
 proxies:
   - {name: "[VMess] @DeltaKroneckerGithub_3021_IPV4", server: 172.64.145.93, port: 443, type: vmess, uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: guanwang.awsno.com, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: guanwang.awsno.com}}, udp: true}
-  - {name: "[SS] 新西兰 V2CROSS.COM", server: 202.50.253.81, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
-  - {name: "[SS] 新西兰 V2CROSS.COM 2", server: 202.50.253.54, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
+  - {name: "[SS] 新西兰 V2CROSS.COM", server: 202.50.253.63, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
+  - {name: "[SS] 新西兰 V2CROSS.COM 2", server: 202.50.253.81, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
+  - {name: "[SS] 新西兰 V2CROSS.COM 3", server: 202.50.253.54, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
   - {name: "[VMess] 🇨🇳 _CN_中国_IPV4", server: 39.108.113.127, port: 10086, type: vmess, uuid: b0253c6c-0b96-4950-bde1-669f13bc1a01, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}, udp: true}
   - {name: "[Trojan] 🇩🇪 _DE_德国_IPV4", server: 191.44.112.170.sslip.io, port: 443, type: trojan, password: 46d221fa-e9b4-748c-4eae-019a88e42991, sni: orbylume.my.to, skip-cert-verify: false, network: ws, ws-opts: {path: /tvpn-trojan/bg, headers: {Host: orbylume.my.to}}, udp: true}
   - {name: "[Trojan] 🇬🇧 _GB_英国_IPV4", server: en001.zestapp778.com, port: 29813, type: trojan, password: 5t6i121em5lkmsmk, sni: en001.zestapp778.com, skip-cert-verify: false, udp: true}
@@ -26,7 +27,9 @@ proxies:
   - {name: "[SS] 🇮🇹 _IT_意大利_IPV4 (9)", server: 202.50.253.81, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
   - {name: "[Trojan] 🇯🇵 _JP_日本_IPV4", server: 185.220.238.77, port: 11543, type: trojan, password: HutaoCloud, sni: 185.220.238.77, skip-cert-verify: false, network: ws, ws-opts: {path: /api, headers: {Host: 185.220.238.77}}, udp: true}
   - {name: "[Trojan] 🇸🇪 瑞典 V2CROSS.COM", server: 167.88.61.175, port: 443, type: trojan, password: 0ab6c98dae3b48e8b9c4a776b6c9c19a, sni: blog.browseseniorrolesandenhanceyourcareertoday.com, skip-cert-verify: false, udp: true}
+  - {name: "[Trojan] 🇸🇪 瑞典 V2CROSS.COM 2", server: 167.88.61.175, port: 443, type: trojan, password: 0ab6c98dae3b48e8b9c4a776b6c9c19a, sni: blog.browseseniorrolesandenhanceyourcareertoday.com, skip-cert-verify: false, udp: true}
   - {name: "[VMess] 🇺🇸 机场推荐:dafei.de 美国 15_IPV4", server: 172.67.190.164, port: 443, type: vmess, uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: guanwang.awsno.com, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: guanwang.awsno.com}}, udp: true}
+  - {name: "[SS] 🇺🇸 美国 V2CROSS.COM", server: 154.36.158.197, port: 8388, type: ss, cipher: aes-256-gcm, password: BeaUf9c0AEWH40Pu, udp: true}
 proxy-groups:
   - name: 🚀 全球互联
     type: select
@@ -43,6 +46,7 @@ proxy-groups:
       - "[VMess] @DeltaKroneckerGithub_3021_IPV4"
       - "[SS] 新西兰 V2CROSS.COM"
       - "[SS] 新西兰 V2CROSS.COM 2"
+      - "[SS] 新西兰 V2CROSS.COM 3"
       - "[VMess] 🇨🇳 _CN_中国_IPV4"
       - "[Trojan] 🇩🇪 _DE_德国_IPV4"
       - "[Trojan] 🇬🇧 _GB_英国_IPV4"
@@ -58,7 +62,9 @@ proxy-groups:
       - "[SS] 🇮🇹 _IT_意大利_IPV4 (9)"
       - "[Trojan] 🇯🇵 _JP_日本_IPV4"
       - "[Trojan] 🇸🇪 瑞典 V2CROSS.COM"
+      - "[Trojan] 🇸🇪 瑞典 V2CROSS.COM 2"
       - "[VMess] 🇺🇸 机场推荐:dafei.de 美国 15_IPV4"
+      - "[SS] 🇺🇸 美国 V2CROSS.COM"
   - name: 🎥 Netflix
     type: select
     proxies:
@@ -70,6 +76,7 @@ proxy-groups:
       - "[VMess] @DeltaKroneckerGithub_3021_IPV4"
       - "[SS] 新西兰 V2CROSS.COM"
       - "[SS] 新西兰 V2CROSS.COM 2"
+      - "[SS] 新西兰 V2CROSS.COM 3"
       - "[VMess] 🇨🇳 _CN_中国_IPV4"
       - "[Trojan] 🇩🇪 _DE_德国_IPV4"
       - "[Trojan] 🇬🇧 _GB_英国_IPV4"
@@ -85,7 +92,9 @@ proxy-groups:
       - "[SS] 🇮🇹 _IT_意大利_IPV4 (9)"
       - "[Trojan] 🇯🇵 _JP_日本_IPV4"
       - "[Trojan] 🇸🇪 瑞典 V2CROSS.COM"
+      - "[Trojan] 🇸🇪 瑞典 V2CROSS.COM 2"
       - "[VMess] 🇺🇸 机场推荐:dafei.de 美国 15_IPV4"
+      - "[SS] 🇺🇸 美国 V2CROSS.COM"
   - name: 📹 Youtube
     type: select
     proxies:
@@ -97,6 +106,7 @@ proxy-groups:
       - "[VMess] @DeltaKroneckerGithub_3021_IPV4"
       - "[SS] 新西兰 V2CROSS.COM"
       - "[SS] 新西兰 V2CROSS.COM 2"
+      - "[SS] 新西兰 V2CROSS.COM 3"
       - "[VMess] 🇨🇳 _CN_中国_IPV4"
       - "[Trojan] 🇩🇪 _DE_德国_IPV4"
       - "[Trojan] 🇬🇧 _GB_英国_IPV4"
@@ -112,7 +122,9 @@ proxy-groups:
       - "[SS] 🇮🇹 _IT_意大利_IPV4 (9)"
       - "[Trojan] 🇯🇵 _JP_日本_IPV4"
       - "[Trojan] 🇸🇪 瑞典 V2CROSS.COM"
+      - "[Trojan] 🇸🇪 瑞典 V2CROSS.COM 2"
       - "[VMess] 🇺🇸 机场推荐:dafei.de 美国 15_IPV4"
+      - "[SS] 🇺🇸 美国 V2CROSS.COM"
   - name: ▶️ Disney+
     type: select
     proxies:
@@ -124,6 +136,7 @@ proxy-groups:
       - "[VMess] @DeltaKroneckerGithub_3021_IPV4"
       - "[SS] 新西兰 V2CROSS.COM"
       - "[SS] 新西兰 V2CROSS.COM 2"
+      - "[SS] 新西兰 V2CROSS.COM 3"
       - "[VMess] 🇨🇳 _CN_中国_IPV4"
       - "[Trojan] 🇩🇪 _DE_德国_IPV4"
       - "[Trojan] 🇬🇧 _GB_英国_IPV4"
@@ -139,7 +152,9 @@ proxy-groups:
       - "[SS] 🇮🇹 _IT_意大利_IPV4 (9)"
       - "[Trojan] 🇯🇵 _JP_日本_IPV4"
       - "[Trojan] 🇸🇪 瑞典 V2CROSS.COM"
+      - "[Trojan] 🇸🇪 瑞典 V2CROSS.COM 2"
       - "[VMess] 🇺🇸 机场推荐:dafei.de 美国 15_IPV4"
+      - "[SS] 🇺🇸 美国 V2CROSS.COM"
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -152,6 +167,7 @@ proxy-groups:
       - "[VMess] @DeltaKroneckerGithub_3021_IPV4"
       - "[SS] 新西兰 V2CROSS.COM"
       - "[SS] 新西兰 V2CROSS.COM 2"
+      - "[SS] 新西兰 V2CROSS.COM 3"
       - "[VMess] 🇨🇳 _CN_中国_IPV4"
       - "[Trojan] 🇩🇪 _DE_德国_IPV4"
       - "[Trojan] 🇬🇧 _GB_英国_IPV4"
@@ -167,7 +183,9 @@ proxy-groups:
       - "[SS] 🇮🇹 _IT_意大利_IPV4 (9)"
       - "[Trojan] 🇯🇵 _JP_日本_IPV4"
       - "[Trojan] 🇸🇪 瑞典 V2CROSS.COM"
+      - "[Trojan] 🇸🇪 瑞典 V2CROSS.COM 2"
       - "[VMess] 🇺🇸 机场推荐:dafei.de 美国 15_IPV4"
+      - "[SS] 🇺🇸 美国 V2CROSS.COM"
   - name: 📲 Telegram
     type: select
     proxies:
@@ -193,6 +211,7 @@ proxy-groups:
       - "[VMess] @DeltaKroneckerGithub_3021_IPV4"
       - "[SS] 新西兰 V2CROSS.COM"
       - "[SS] 新西兰 V2CROSS.COM 2"
+      - "[SS] 新西兰 V2CROSS.COM 3"
       - "[VMess] 🇨🇳 _CN_中国_IPV4"
       - "[Trojan] 🇩🇪 _DE_德国_IPV4"
       - "[Trojan] 🇬🇧 _GB_英国_IPV4"
@@ -208,7 +227,9 @@ proxy-groups:
       - "[SS] 🇮🇹 _IT_意大利_IPV4 (9)"
       - "[Trojan] 🇯🇵 _JP_日本_IPV4"
       - "[Trojan] 🇸🇪 瑞典 V2CROSS.COM"
+      - "[Trojan] 🇸🇪 瑞典 V2CROSS.COM 2"
       - "[VMess] 🇺🇸 机场推荐:dafei.de 美国 15_IPV4"
+      - "[SS] 🇺🇸 美国 V2CROSS.COM"
   - name: 🇭🇰 香港
     type: select
     proxies:
@@ -221,6 +242,7 @@ proxy-groups:
     type: select
     proxies:
       - "[VMess] 🇺🇸 机场推荐:dafei.de 美国 15_IPV4"
+      - "[SS] 🇺🇸 美国 V2CROSS.COM"
   - name: 🇹🇼 台湾
     type: select
     proxies:
