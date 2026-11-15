@@ -9,13 +9,13 @@ hosts:
   .google.cn: 142.250.196.131
 proxies:
   - {name: "[VMess] @DeltaKroneckerGithub_3021_IPV4", server: 172.64.145.93, port: 443, type: vmess, uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: guanwang.awsno.com, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: guanwang.awsno.com}}, udp: true}
-  - {name: "[SS] 新西兰 V2CROSS.COM", server: 202.50.253.90, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
-  - {name: "[SS] 新西兰 V2CROSS.COM 2", server: 202.50.253.45, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
-  - {name: "[SS] 新西兰 V2CROSS.COM 3", server: 202.50.253.81, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
-  - {name: "[SS] 新西兰 V2CROSS.COM 4", server: 202.50.253.99, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
-  - {name: "[SS] 新西兰 V2CROSS.COM 5", server: 202.50.253.72, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
-  - {name: "[SS] 新西兰 V2CROSS.COM 6", server: 202.50.253.54, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
-  - {name: "[SS] 新西兰 V2CROSS.COM 7", server: 202.50.253.36, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
+  - {name: "[SS] 新西兰 V2CROSS.COM", server: 202.50.253.27, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
+  - {name: "[SS] 新西兰 V2CROSS.COM 2", server: 202.50.253.81, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
+  - {name: "[SS] 新西兰 V2CROSS.COM 3", server: 202.50.253.18, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
+  - {name: "[SS] 🇩🇪 德国 阿里云", server: 47.254.169.3, port: 443, type: ss, cipher: 2022-blake3-chacha20-poly1305, password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=, udp: true}
+  - {name: "[Trojan] 🇭🇰 香港 葵兴数据中心", server: sclass-b1.catcat321.com, port: 20027, type: trojan, password: d7563108-615c-4338-a7bd-77f359869a4a, sni: hk.catxstar.com, skip-cert-verify: false, udp: true}
+  - {name: "[Trojan] 🇭🇰 香港 葵兴数据中心 2", server: sclass-01.catcat321.com, port: 20103, type: trojan, password: d7563108-615c-4338-a7bd-77f359869a4a, sni: hk.catxstar.com, skip-cert-verify: false, udp: true}
+  - {name: "[Trojan] 🇭🇰 香港 葵兴数据中心 3", server: sclass-b1.catcat321.com, port: 20027, type: trojan, password: d7563108-615c-4338-a7bd-77f359869a4a, sni: hk.catxstar.com, skip-cert-verify: false, udp: true}
   - {name: "[SS] 🇮🇹 _IT_意大利_IPV4", server: 202.50.253.27, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
   - {name: "[SS] 🇮🇹 _IT_意大利_IPV4 (10)", server: 202.50.253.72, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
   - {name: "[SS] 🇮🇹 _IT_意大利_IPV4 (2)", server: 202.50.253.36, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
@@ -49,10 +49,10 @@ proxy-groups:
       - "[SS] 新西兰 V2CROSS.COM"
       - "[SS] 新西兰 V2CROSS.COM 2"
       - "[SS] 新西兰 V2CROSS.COM 3"
-      - "[SS] 新西兰 V2CROSS.COM 4"
-      - "[SS] 新西兰 V2CROSS.COM 5"
-      - "[SS] 新西兰 V2CROSS.COM 6"
-      - "[SS] 新西兰 V2CROSS.COM 7"
+      - "[SS] 🇩🇪 德国 阿里云"
+      - "[Trojan] 🇭🇰 香港 葵兴数据中心"
+      - "[Trojan] 🇭🇰 香港 葵兴数据中心 2"
+      - "[Trojan] 🇭🇰 香港 葵兴数据中心 3"
       - "[SS] 🇮🇹 _IT_意大利_IPV4"
       - "[SS] 🇮🇹 _IT_意大利_IPV4 (10)"
       - "[SS] 🇮🇹 _IT_意大利_IPV4 (2)"
@@ -81,10 +81,10 @@ proxy-groups:
       - "[SS] 新西兰 V2CROSS.COM"
       - "[SS] 新西兰 V2CROSS.COM 2"
       - "[SS] 新西兰 V2CROSS.COM 3"
-      - "[SS] 新西兰 V2CROSS.COM 4"
-      - "[SS] 新西兰 V2CROSS.COM 5"
-      - "[SS] 新西兰 V2CROSS.COM 6"
-      - "[SS] 新西兰 V2CROSS.COM 7"
+      - "[SS] 🇩🇪 德国 阿里云"
+      - "[Trojan] 🇭🇰 香港 葵兴数据中心"
+      - "[Trojan] 🇭🇰 香港 葵兴数据中心 2"
+      - "[Trojan] 🇭🇰 香港 葵兴数据中心 3"
       - "[SS] 🇮🇹 _IT_意大利_IPV4"
       - "[SS] 🇮🇹 _IT_意大利_IPV4 (10)"
       - "[SS] 🇮🇹 _IT_意大利_IPV4 (2)"
@@ -113,10 +113,10 @@ proxy-groups:
       - "[SS] 新西兰 V2CROSS.COM"
       - "[SS] 新西兰 V2CROSS.COM 2"
       - "[SS] 新西兰 V2CROSS.COM 3"
-      - "[SS] 新西兰 V2CROSS.COM 4"
-      - "[SS] 新西兰 V2CROSS.COM 5"
-      - "[SS] 新西兰 V2CROSS.COM 6"
-      - "[SS] 新西兰 V2CROSS.COM 7"
+      - "[SS] 🇩🇪 德国 阿里云"
+      - "[Trojan] 🇭🇰 香港 葵兴数据中心"
+      - "[Trojan] 🇭🇰 香港 葵兴数据中心 2"
+      - "[Trojan] 🇭🇰 香港 葵兴数据中心 3"
       - "[SS] 🇮🇹 _IT_意大利_IPV4"
       - "[SS] 🇮🇹 _IT_意大利_IPV4 (10)"
       - "[SS] 🇮🇹 _IT_意大利_IPV4 (2)"
@@ -145,10 +145,10 @@ proxy-groups:
       - "[SS] 新西兰 V2CROSS.COM"
       - "[SS] 新西兰 V2CROSS.COM 2"
       - "[SS] 新西兰 V2CROSS.COM 3"
-      - "[SS] 新西兰 V2CROSS.COM 4"
-      - "[SS] 新西兰 V2CROSS.COM 5"
-      - "[SS] 新西兰 V2CROSS.COM 6"
-      - "[SS] 新西兰 V2CROSS.COM 7"
+      - "[SS] 🇩🇪 德国 阿里云"
+      - "[Trojan] 🇭🇰 香港 葵兴数据中心"
+      - "[Trojan] 🇭🇰 香港 葵兴数据中心 2"
+      - "[Trojan] 🇭🇰 香港 葵兴数据中心 3"
       - "[SS] 🇮🇹 _IT_意大利_IPV4"
       - "[SS] 🇮🇹 _IT_意大利_IPV4 (10)"
       - "[SS] 🇮🇹 _IT_意大利_IPV4 (2)"
@@ -178,10 +178,10 @@ proxy-groups:
       - "[SS] 新西兰 V2CROSS.COM"
       - "[SS] 新西兰 V2CROSS.COM 2"
       - "[SS] 新西兰 V2CROSS.COM 3"
-      - "[SS] 新西兰 V2CROSS.COM 4"
-      - "[SS] 新西兰 V2CROSS.COM 5"
-      - "[SS] 新西兰 V2CROSS.COM 6"
-      - "[SS] 新西兰 V2CROSS.COM 7"
+      - "[SS] 🇩🇪 德国 阿里云"
+      - "[Trojan] 🇭🇰 香港 葵兴数据中心"
+      - "[Trojan] 🇭🇰 香港 葵兴数据中心 2"
+      - "[Trojan] 🇭🇰 香港 葵兴数据中心 3"
       - "[SS] 🇮🇹 _IT_意大利_IPV4"
       - "[SS] 🇮🇹 _IT_意大利_IPV4 (10)"
       - "[SS] 🇮🇹 _IT_意大利_IPV4 (2)"
@@ -211,6 +211,9 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
+      - "[Trojan] 🇭🇰 香港 葵兴数据中心"
+      - "[Trojan] 🇭🇰 香港 葵兴数据中心 2"
+      - "[Trojan] 🇭🇰 香港 葵兴数据中心 3"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -224,10 +227,10 @@ proxy-groups:
       - "[SS] 新西兰 V2CROSS.COM"
       - "[SS] 新西兰 V2CROSS.COM 2"
       - "[SS] 新西兰 V2CROSS.COM 3"
-      - "[SS] 新西兰 V2CROSS.COM 4"
-      - "[SS] 新西兰 V2CROSS.COM 5"
-      - "[SS] 新西兰 V2CROSS.COM 6"
-      - "[SS] 新西兰 V2CROSS.COM 7"
+      - "[SS] 🇩🇪 德国 阿里云"
+      - "[Trojan] 🇭🇰 香港 葵兴数据中心"
+      - "[Trojan] 🇭🇰 香港 葵兴数据中心 2"
+      - "[Trojan] 🇭🇰 香港 葵兴数据中心 3"
       - "[SS] 🇮🇹 _IT_意大利_IPV4"
       - "[SS] 🇮🇹 _IT_意大利_IPV4 (10)"
       - "[SS] 🇮🇹 _IT_意大利_IPV4 (2)"
@@ -247,7 +250,9 @@ proxy-groups:
   - name: 🇭🇰 香港
     type: select
     proxies:
-      - DIRECT
+      - "[Trojan] 🇭🇰 香港 葵兴数据中心"
+      - "[Trojan] 🇭🇰 香港 葵兴数据中心 2"
+      - "[Trojan] 🇭🇰 香港 葵兴数据中心 3"
   - name: 🇯🇵 日本
     type: select
     proxies:
