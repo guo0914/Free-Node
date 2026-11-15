@@ -8,14 +8,15 @@ hosts:
   .googleapis.cn: 142.250.196.131
   .google.cn: 142.250.196.131
 proxies:
-  - {name: "[SS] 新西兰 V2CROSS.COM", server: 202.50.253.45, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
-  - {name: "[SS] 新西兰 V2CROSS.COM 2", server: 202.50.253.18, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
+  - {name: "[SS] 新西兰 V2CROSS.COM", server: 202.50.253.72, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
   - {name: "[VMess] 🇨🇳 _CN_中国_IPV4", server: 39.108.113.127, port: 10086, type: vmess, uuid: 74e07df3-f82a-4791-987f-247c3c395866, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}, udp: true}
   - {name: "[VMess] 🇩🇪 _DE_德国_IPV4", server: 23.165.200.150, port: 52080, type: vmess, uuid: 672cdade-bb05-4c86-b578-e5d09b79524a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, servername: down-cdn.dingtalk.com, network: http, http-opts: {method: GET, path: [/QQqun-737805443], headers: {Host: [down-cdn.dingtalk.com]}}, udp: true}
   - {name: "[Trojan] 🇭🇰 香港 葵兴数据中心", server: sclass-b1.catcat321.com, port: 20027, type: trojan, password: d7563108-615c-4338-a7bd-77f359869a4a, sni: hk.catxstar.com, skip-cert-verify: false, udp: true}
   - {name: "[Trojan] 🇭🇰 香港 葵兴数据中心 2", server: sclass-b1.catcat321.com, port: 20028, type: trojan, password: d7563108-615c-4338-a7bd-77f359869a4a, sni: hk.catxstar.com, skip-cert-verify: false, udp: true}
   - {name: "[Trojan] 🇭🇰 香港 葵兴数据中心 3", server: sclass-b1.catcat321.com, port: 20028, type: trojan, password: d7563108-615c-4338-a7bd-77f359869a4a, sni: hk.catxstar.com, skip-cert-verify: false, udp: true}
-  - {name: "[VMess] 🇺🇸 美国 V2CROSS.COM", server: 209.38.42.238, port: 1270, type: vmess, uuid: 5c040f1d-45db-43bd-8d46-e4950e433735, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: xmfhlpy.com, udp: true}
+  - {name: "[Trojan] 🇭🇰 香港 葵兴数据中心 4", server: sclass-01.catcat321.com, port: 20103, type: trojan, password: d7563108-615c-4338-a7bd-77f359869a4a, sni: hk.catxstar.com, skip-cert-verify: false, udp: true}
+  - {name: "[VMess] 🇺🇸 美国 Alabanza", server: 65.108.240.210, port: 39018, type: vmess, uuid: 77fb7a80-4724-4e33-9558-4f20c1634c5a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: "[VMess] 🇺🇸 美国 Alabanza 2", server: 65.108.240.210, port: 39018, type: vmess, uuid: fa15684a-81e6-4ba7-bc4b-f601c0d998e9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
 proxy-groups:
   - name: 🚀 全球互联
     type: select
@@ -30,13 +31,14 @@ proxy-groups:
       - 🇹🇼 台湾
       - 🇸🇬 新加坡
       - "[SS] 新西兰 V2CROSS.COM"
-      - "[SS] 新西兰 V2CROSS.COM 2"
       - "[VMess] 🇨🇳 _CN_中国_IPV4"
       - "[VMess] 🇩🇪 _DE_德国_IPV4"
       - "[Trojan] 🇭🇰 香港 葵兴数据中心"
       - "[Trojan] 🇭🇰 香港 葵兴数据中心 2"
       - "[Trojan] 🇭🇰 香港 葵兴数据中心 3"
-      - "[VMess] 🇺🇸 美国 V2CROSS.COM"
+      - "[Trojan] 🇭🇰 香港 葵兴数据中心 4"
+      - "[VMess] 🇺🇸 美国 Alabanza"
+      - "[VMess] 🇺🇸 美国 Alabanza 2"
   - name: 🎥 Netflix
     type: select
     proxies:
@@ -46,13 +48,14 @@ proxy-groups:
       - 🇹🇼 台湾
       - 🇸🇬 新加坡
       - "[SS] 新西兰 V2CROSS.COM"
-      - "[SS] 新西兰 V2CROSS.COM 2"
       - "[VMess] 🇨🇳 _CN_中国_IPV4"
       - "[VMess] 🇩🇪 _DE_德国_IPV4"
       - "[Trojan] 🇭🇰 香港 葵兴数据中心"
       - "[Trojan] 🇭🇰 香港 葵兴数据中心 2"
       - "[Trojan] 🇭🇰 香港 葵兴数据中心 3"
-      - "[VMess] 🇺🇸 美国 V2CROSS.COM"
+      - "[Trojan] 🇭🇰 香港 葵兴数据中心 4"
+      - "[VMess] 🇺🇸 美国 Alabanza"
+      - "[VMess] 🇺🇸 美国 Alabanza 2"
   - name: 📹 Youtube
     type: select
     proxies:
@@ -62,13 +65,14 @@ proxy-groups:
       - 🇹🇼 台湾
       - 🇸🇬 新加坡
       - "[SS] 新西兰 V2CROSS.COM"
-      - "[SS] 新西兰 V2CROSS.COM 2"
       - "[VMess] 🇨🇳 _CN_中国_IPV4"
       - "[VMess] 🇩🇪 _DE_德国_IPV4"
       - "[Trojan] 🇭🇰 香港 葵兴数据中心"
       - "[Trojan] 🇭🇰 香港 葵兴数据中心 2"
       - "[Trojan] 🇭🇰 香港 葵兴数据中心 3"
-      - "[VMess] 🇺🇸 美国 V2CROSS.COM"
+      - "[Trojan] 🇭🇰 香港 葵兴数据中心 4"
+      - "[VMess] 🇺🇸 美国 Alabanza"
+      - "[VMess] 🇺🇸 美国 Alabanza 2"
   - name: ▶️ Disney+
     type: select
     proxies:
@@ -78,13 +82,14 @@ proxy-groups:
       - 🇹🇼 台湾
       - 🇸🇬 新加坡
       - "[SS] 新西兰 V2CROSS.COM"
-      - "[SS] 新西兰 V2CROSS.COM 2"
       - "[VMess] 🇨🇳 _CN_中国_IPV4"
       - "[VMess] 🇩🇪 _DE_德国_IPV4"
       - "[Trojan] 🇭🇰 香港 葵兴数据中心"
       - "[Trojan] 🇭🇰 香港 葵兴数据中心 2"
       - "[Trojan] 🇭🇰 香港 葵兴数据中心 3"
-      - "[VMess] 🇺🇸 美国 V2CROSS.COM"
+      - "[Trojan] 🇭🇰 香港 葵兴数据中心 4"
+      - "[VMess] 🇺🇸 美国 Alabanza"
+      - "[VMess] 🇺🇸 美国 Alabanza 2"
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -95,13 +100,14 @@ proxy-groups:
       - 🇹🇼 台湾
       - 🇸🇬 新加坡
       - "[SS] 新西兰 V2CROSS.COM"
-      - "[SS] 新西兰 V2CROSS.COM 2"
       - "[VMess] 🇨🇳 _CN_中国_IPV4"
       - "[VMess] 🇩🇪 _DE_德国_IPV4"
       - "[Trojan] 🇭🇰 香港 葵兴数据中心"
       - "[Trojan] 🇭🇰 香港 葵兴数据中心 2"
       - "[Trojan] 🇭🇰 香港 葵兴数据中心 3"
-      - "[VMess] 🇺🇸 美国 V2CROSS.COM"
+      - "[Trojan] 🇭🇰 香港 葵兴数据中心 4"
+      - "[VMess] 🇺🇸 美国 Alabanza"
+      - "[VMess] 🇺🇸 美国 Alabanza 2"
   - name: 📲 Telegram
     type: select
     proxies:
@@ -118,6 +124,7 @@ proxy-groups:
       - "[Trojan] 🇭🇰 香港 葵兴数据中心"
       - "[Trojan] 🇭🇰 香港 葵兴数据中心 2"
       - "[Trojan] 🇭🇰 香港 葵兴数据中心 3"
+      - "[Trojan] 🇭🇰 香港 葵兴数据中心 4"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -128,19 +135,21 @@ proxy-groups:
       - 🇹🇼 台湾
       - 🇸🇬 新加坡
       - "[SS] 新西兰 V2CROSS.COM"
-      - "[SS] 新西兰 V2CROSS.COM 2"
       - "[VMess] 🇨🇳 _CN_中国_IPV4"
       - "[VMess] 🇩🇪 _DE_德国_IPV4"
       - "[Trojan] 🇭🇰 香港 葵兴数据中心"
       - "[Trojan] 🇭🇰 香港 葵兴数据中心 2"
       - "[Trojan] 🇭🇰 香港 葵兴数据中心 3"
-      - "[VMess] 🇺🇸 美国 V2CROSS.COM"
+      - "[Trojan] 🇭🇰 香港 葵兴数据中心 4"
+      - "[VMess] 🇺🇸 美国 Alabanza"
+      - "[VMess] 🇺🇸 美国 Alabanza 2"
   - name: 🇭🇰 香港
     type: select
     proxies:
       - "[Trojan] 🇭🇰 香港 葵兴数据中心"
       - "[Trojan] 🇭🇰 香港 葵兴数据中心 2"
       - "[Trojan] 🇭🇰 香港 葵兴数据中心 3"
+      - "[Trojan] 🇭🇰 香港 葵兴数据中心 4"
   - name: 🇯🇵 日本
     type: select
     proxies:
@@ -148,7 +157,8 @@ proxy-groups:
   - name: 🇺🇲 美国
     type: select
     proxies:
-      - "[VMess] 🇺🇸 美国 V2CROSS.COM"
+      - "[VMess] 🇺🇸 美国 Alabanza"
+      - "[VMess] 🇺🇸 美国 Alabanza 2"
   - name: 🇹🇼 台湾
     type: select
     proxies:
@@ -562,7 +572,6 @@ rules:
   - DOMAIN,image.acg.lol,🌍 国外媒体
   - DOMAIN-SUFFIX,nodeimage.com,🌍 国外媒体
   - DOMAIN-SUFFIX,linux.do,🌍 国外媒体
-  - DOMAIN-SUFFIX,linux.sb,🌍 国外媒体
   - DOMAIN-SUFFIX,sb.sb,🌍 国外媒体
   - DOMAIN-SUFFIX,idcflare.com,🌍 国外媒体
   - DOMAIN-SUFFIX,windsurf-stable.codeiumdata.com,🌍 国外媒体
@@ -939,6 +948,9 @@ rules:
   - DOMAIN-SUFFIX,gorouter.app,🚀 全球互联
   - DOMAIN-SUFFIX,kktoken.cc,🚀 全球互联
   - DOMAIN-SUFFIX,seekai.cc,🚀 全球互联
+  - DOMAIN-SUFFIX,qulink.cyou,🚀 全球互联
+  - DOMAIN-SUFFIX,happycoding.xyz,🚀 全球互联
+  - DOMAIN-SUFFIX,linux.sb,🚀 全球互联
   - DOMAIN-SUFFIX,freenom.com,🚀 全球互联
   - DOMAIN-SUFFIX,maxcdn.bootstrapcdn.com,🚀 全球互联
   - DOMAIN-SUFFIX,gaming.amazon.com,🚀 全球互联
