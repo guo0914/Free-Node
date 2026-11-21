@@ -9,11 +9,8 @@ hosts:
   .google.cn: 142.250.196.131
 proxies:
   - {name: "[VMess] @DeltaKroneckerGithub_3021_IPV4", server: 172.64.145.93, port: 443, type: vmess, uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: guanwang.awsno.com, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: guanwang.awsno.com}}, udp: true}
-  - {name: "[SS] 新西兰 V2CROSS.COM", server: 202.50.253.72, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
-  - {name: "[SS] 新西兰 V2CROSS.COM 2", server: 202.50.253.27, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
-  - {name: "[VMess] 🇨🇭 瑞士 V2CROSS.COM", server: 179.43.140.24, port: 42831, type: vmess, uuid: a925a98c-ad7a-40c6-9fdf-130a1de69416, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: "[VMess] 🇰🇷 韩国 首尔Amazon数据中心", server: dp8yk.xiaoyan.io, port: 16616, type: vmess, uuid: 904f0569-8695-466f-97cf-0de2face1b46, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: f9309cc88637c26f552a1a64fb311cae.mobgslb.tbcache.com}}, udp: true}
-  - {name: "[VMess] 🇰🇷 韩国 首尔Amazon数据中心 2", server: dp8yk.xiaoyan.io, port: 16616, type: vmess, uuid: 904f0569-8695-466f-97cf-0de2face1b46, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: f9309cc88637c26f552a1a64fb311cae.mobgslb.tbcache.com}}, udp: true}
+  - {name: "[SS] 新西兰 V2CROSS.COM", server: 202.50.253.90, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
+  - {name: "[Trojan] 🇦🇺 澳大利亚 V2CROSS.COM", server: 103.11.76.183, port: 443, type: trojan, password: f426d3c9-fb43-43c0-868b-898dfa451a74, sni: likejennie.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: likejennie.pages.dev}}, udp: true}
   - {name: "[SS] 🇺🇸 _US_美国_IPV4", server: 47.85.162.44, port: 443, type: ss, cipher: 2022-blake3-chacha20-poly1305, password: 3NBsnBLanPfG6i3S2GTHineswr6EeSJPb0PCeMQoGoA=, udp: true}
   - {name: "[VMess] 🇺🇸 _US_美国_IPV4 (14)", server: 104.18.42.163, port: 443, type: vmess, uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: guanwang.awsno.com, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: guanwang.awsno.com}}, udp: true}
   - {name: "[VMess] 🇺🇸 机场推荐:dafei.de 美国 15_IPV4", server: 172.67.190.164, port: 443, type: vmess, uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: guanwang.awsno.com, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: guanwang.awsno.com}}, udp: true}
@@ -33,10 +30,7 @@ proxy-groups:
       - 🇸🇬 新加坡
       - "[VMess] @DeltaKroneckerGithub_3021_IPV4"
       - "[SS] 新西兰 V2CROSS.COM"
-      - "[SS] 新西兰 V2CROSS.COM 2"
-      - "[VMess] 🇨🇭 瑞士 V2CROSS.COM"
-      - "[VMess] 🇰🇷 韩国 首尔Amazon数据中心"
-      - "[VMess] 🇰🇷 韩国 首尔Amazon数据中心 2"
+      - "[Trojan] 🇦🇺 澳大利亚 V2CROSS.COM"
       - "[SS] 🇺🇸 _US_美国_IPV4"
       - "[VMess] 🇺🇸 _US_美国_IPV4 (14)"
       - "[VMess] 🇺🇸 机场推荐:dafei.de 美国 15_IPV4"
@@ -51,10 +45,7 @@ proxy-groups:
       - 🇸🇬 新加坡
       - "[VMess] @DeltaKroneckerGithub_3021_IPV4"
       - "[SS] 新西兰 V2CROSS.COM"
-      - "[SS] 新西兰 V2CROSS.COM 2"
-      - "[VMess] 🇨🇭 瑞士 V2CROSS.COM"
-      - "[VMess] 🇰🇷 韩国 首尔Amazon数据中心"
-      - "[VMess] 🇰🇷 韩国 首尔Amazon数据中心 2"
+      - "[Trojan] 🇦🇺 澳大利亚 V2CROSS.COM"
       - "[SS] 🇺🇸 _US_美国_IPV4"
       - "[VMess] 🇺🇸 _US_美国_IPV4 (14)"
       - "[VMess] 🇺🇸 机场推荐:dafei.de 美国 15_IPV4"
@@ -69,10 +60,7 @@ proxy-groups:
       - 🇸🇬 新加坡
       - "[VMess] @DeltaKroneckerGithub_3021_IPV4"
       - "[SS] 新西兰 V2CROSS.COM"
-      - "[SS] 新西兰 V2CROSS.COM 2"
-      - "[VMess] 🇨🇭 瑞士 V2CROSS.COM"
-      - "[VMess] 🇰🇷 韩国 首尔Amazon数据中心"
-      - "[VMess] 🇰🇷 韩国 首尔Amazon数据中心 2"
+      - "[Trojan] 🇦🇺 澳大利亚 V2CROSS.COM"
       - "[SS] 🇺🇸 _US_美国_IPV4"
       - "[VMess] 🇺🇸 _US_美国_IPV4 (14)"
       - "[VMess] 🇺🇸 机场推荐:dafei.de 美国 15_IPV4"
@@ -87,10 +75,7 @@ proxy-groups:
       - 🇸🇬 新加坡
       - "[VMess] @DeltaKroneckerGithub_3021_IPV4"
       - "[SS] 新西兰 V2CROSS.COM"
-      - "[SS] 新西兰 V2CROSS.COM 2"
-      - "[VMess] 🇨🇭 瑞士 V2CROSS.COM"
-      - "[VMess] 🇰🇷 韩国 首尔Amazon数据中心"
-      - "[VMess] 🇰🇷 韩国 首尔Amazon数据中心 2"
+      - "[Trojan] 🇦🇺 澳大利亚 V2CROSS.COM"
       - "[SS] 🇺🇸 _US_美国_IPV4"
       - "[VMess] 🇺🇸 _US_美国_IPV4 (14)"
       - "[VMess] 🇺🇸 机场推荐:dafei.de 美国 15_IPV4"
@@ -106,10 +91,7 @@ proxy-groups:
       - 🇸🇬 新加坡
       - "[VMess] @DeltaKroneckerGithub_3021_IPV4"
       - "[SS] 新西兰 V2CROSS.COM"
-      - "[SS] 新西兰 V2CROSS.COM 2"
-      - "[VMess] 🇨🇭 瑞士 V2CROSS.COM"
-      - "[VMess] 🇰🇷 韩国 首尔Amazon数据中心"
-      - "[VMess] 🇰🇷 韩国 首尔Amazon数据中心 2"
+      - "[Trojan] 🇦🇺 澳大利亚 V2CROSS.COM"
       - "[SS] 🇺🇸 _US_美国_IPV4"
       - "[VMess] 🇺🇸 _US_美国_IPV4 (14)"
       - "[VMess] 🇺🇸 机场推荐:dafei.de 美国 15_IPV4"
@@ -138,10 +120,7 @@ proxy-groups:
       - 🇸🇬 新加坡
       - "[VMess] @DeltaKroneckerGithub_3021_IPV4"
       - "[SS] 新西兰 V2CROSS.COM"
-      - "[SS] 新西兰 V2CROSS.COM 2"
-      - "[VMess] 🇨🇭 瑞士 V2CROSS.COM"
-      - "[VMess] 🇰🇷 韩国 首尔Amazon数据中心"
-      - "[VMess] 🇰🇷 韩国 首尔Amazon数据中心 2"
+      - "[Trojan] 🇦🇺 澳大利亚 V2CROSS.COM"
       - "[SS] 🇺🇸 _US_美国_IPV4"
       - "[VMess] 🇺🇸 _US_美国_IPV4 (14)"
       - "[VMess] 🇺🇸 机场推荐:dafei.de 美国 15_IPV4"
