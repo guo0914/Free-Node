@@ -10,9 +10,11 @@ hosts:
 proxies:
   - {name: "[VMess] @DeltaKroneckerGithub_3499_IPV4", server: 104.18.0.1, port: 8443, type: vmess, uuid: 60441548-b68e-43b2-8191-e3b884be4b3c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: v2ray1.dozapp.xyz, network: ws, ws-opts: {path: /lMnsZUN4/, headers: {Host: v2ray1.dozapp.xyz}}, udp: true}
   - {name: "[VMess] @DeltaKroneckerGithub_3774_IPV4", server: 172.67.187.145, port: 80, type: vmess, uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, servername: vmess.lbw666.dpdns.org, network: ws, ws-opts: {path: /ws, headers: {Host: vmess.lbw666.dpdns.org}}, udp: true}
-  - {name: "[SS] 新西兰 V2CROSS.COM", server: 202.50.253.54, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
-  - {name: "[SS] 新西兰 V2CROSS.COM 2", server: 202.50.253.99, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
-  - {name: "[SS] 新西兰 V2CROSS.COM 3", server: 202.50.253.27, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
+  - {name: "[SS] 新西兰 V2CROSS.COM", server: 202.50.253.63, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
+  - {name: "[SS] 新西兰 V2CROSS.COM 2", server: 202.50.253.45, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
+  - {name: "[SS] 新西兰 V2CROSS.COM 3", server: 202.50.253.99, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
+  - {name: "[SS] 新西兰 V2CROSS.COM 4", server: 202.50.253.72, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
+  - {name: "[SS] 🇩🇪 德国 阿里云", server: 47.254.167.157, port: 443, type: ss, cipher: 2022-blake3-chacha20-poly1305, password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=, udp: true}
   - {name: "[Trojan] 🇸🇬 _SG_新加坡_IPV4", server: 77.93.89.2, port: 443, type: trojan, password: 57beeeb0-03fc-4fc9-94da-7604488a7134, sni: bgsg1.hikigo.com, skip-cert-verify: false, udp: true}
   - {name: "[Trojan] 🇸🇬 _SG_新加坡_IPV4 (2)", server: bgsg1.hikigo.com, port: 443, type: trojan, password: 57beeeb0-03fc-4fc9-94da-7604488a7134, sni: bgsg1.hikigo.com, skip-cert-verify: false, udp: true}
 proxy-groups:
@@ -33,6 +35,8 @@ proxy-groups:
       - "[SS] 新西兰 V2CROSS.COM"
       - "[SS] 新西兰 V2CROSS.COM 2"
       - "[SS] 新西兰 V2CROSS.COM 3"
+      - "[SS] 新西兰 V2CROSS.COM 4"
+      - "[SS] 🇩🇪 德国 阿里云"
       - "[Trojan] 🇸🇬 _SG_新加坡_IPV4"
       - "[Trojan] 🇸🇬 _SG_新加坡_IPV4 (2)"
   - name: 🎥 Netflix
@@ -48,6 +52,8 @@ proxy-groups:
       - "[SS] 新西兰 V2CROSS.COM"
       - "[SS] 新西兰 V2CROSS.COM 2"
       - "[SS] 新西兰 V2CROSS.COM 3"
+      - "[SS] 新西兰 V2CROSS.COM 4"
+      - "[SS] 🇩🇪 德国 阿里云"
       - "[Trojan] 🇸🇬 _SG_新加坡_IPV4"
       - "[Trojan] 🇸🇬 _SG_新加坡_IPV4 (2)"
   - name: 📹 Youtube
@@ -63,6 +69,8 @@ proxy-groups:
       - "[SS] 新西兰 V2CROSS.COM"
       - "[SS] 新西兰 V2CROSS.COM 2"
       - "[SS] 新西兰 V2CROSS.COM 3"
+      - "[SS] 新西兰 V2CROSS.COM 4"
+      - "[SS] 🇩🇪 德国 阿里云"
       - "[Trojan] 🇸🇬 _SG_新加坡_IPV4"
       - "[Trojan] 🇸🇬 _SG_新加坡_IPV4 (2)"
   - name: ▶️ Disney+
@@ -78,6 +86,8 @@ proxy-groups:
       - "[SS] 新西兰 V2CROSS.COM"
       - "[SS] 新西兰 V2CROSS.COM 2"
       - "[SS] 新西兰 V2CROSS.COM 3"
+      - "[SS] 新西兰 V2CROSS.COM 4"
+      - "[SS] 🇩🇪 德国 阿里云"
       - "[Trojan] 🇸🇬 _SG_新加坡_IPV4"
       - "[Trojan] 🇸🇬 _SG_新加坡_IPV4 (2)"
   - name: 🌍 国外媒体
@@ -94,6 +104,8 @@ proxy-groups:
       - "[SS] 新西兰 V2CROSS.COM"
       - "[SS] 新西兰 V2CROSS.COM 2"
       - "[SS] 新西兰 V2CROSS.COM 3"
+      - "[SS] 新西兰 V2CROSS.COM 4"
+      - "[SS] 🇩🇪 德国 阿里云"
       - "[Trojan] 🇸🇬 _SG_新加坡_IPV4"
       - "[Trojan] 🇸🇬 _SG_新加坡_IPV4 (2)"
   - name: 📲 Telegram
@@ -123,6 +135,8 @@ proxy-groups:
       - "[SS] 新西兰 V2CROSS.COM"
       - "[SS] 新西兰 V2CROSS.COM 2"
       - "[SS] 新西兰 V2CROSS.COM 3"
+      - "[SS] 新西兰 V2CROSS.COM 4"
+      - "[SS] 🇩🇪 德国 阿里云"
       - "[Trojan] 🇸🇬 _SG_新加坡_IPV4"
       - "[Trojan] 🇸🇬 _SG_新加坡_IPV4 (2)"
   - name: 🇭🇰 香港
