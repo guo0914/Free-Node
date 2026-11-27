@@ -9,10 +9,12 @@ hosts:
   .google.cn: 142.250.196.131
 proxies:
   - {name: "[VMess] @DeltaKroneckerGithub_2974_IPV4", server: 104.17.77.77, port: 8443, type: vmess, uuid: 60441548-b68e-43b2-8191-e3b884be4b3c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: v2ray1.dozapp.xyz, network: ws, ws-opts: {path: /lMnsZUN4/, headers: {Host: v2ray1.dozapp.xyz}}, udp: true}
-  - {name: "[SS] 新西兰 V2CROSS.COM", server: 202.50.253.36, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
-  - {name: "[SS] 新西兰 V2CROSS.COM 2", server: 202.50.253.54, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
-  - {name: "[SS] 新西兰 V2CROSS.COM 3", server: 202.50.253.27, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
+  - {name: "[SS] 新西兰 V2CROSS.COM", server: 202.50.253.99, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
+  - {name: "[SS] 新西兰 V2CROSS.COM 2", server: 202.50.253.45, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
+  - {name: "[SS] 🇧🇪 比利时 V2CROSS.COM", server: waic.pro.main.sys-metric-report.com, port: 28014, type: ss, cipher: chacha20-ietf-poly1305, password: abc62f00-95a8-4c2e-a85d-36a2cdc977da, udp: true}
+  - {name: "[SS] 🇨🇳 中国 阿里云", server: 8.211.56.98, port: 443, type: ss, cipher: 2022-blake3-chacha20-poly1305, password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=, udp: true}
   - {name: "[SS] 🇩🇪 德国 阿里云", server: 47.254.167.157, port: 443, type: ss, cipher: 2022-blake3-chacha20-poly1305, password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=, udp: true}
+  - {name: "[Trojan] 🇺🇸 美国 CloudFlare节点", server: 3x-sub.linzhonghong.com, port: 443, type: trojan, password: c48qMRRfLJ3kwD4P_XpgfIq6, skip-cert-verify: false, network: ws, ws-opts: {path: /tjbbb7eab89c9a}, udp: true}
 proxy-groups:
   - name: 🚀 全球互联
     type: select
@@ -29,8 +31,10 @@ proxy-groups:
       - "[VMess] @DeltaKroneckerGithub_2974_IPV4"
       - "[SS] 新西兰 V2CROSS.COM"
       - "[SS] 新西兰 V2CROSS.COM 2"
-      - "[SS] 新西兰 V2CROSS.COM 3"
+      - "[SS] 🇧🇪 比利时 V2CROSS.COM"
+      - "[SS] 🇨🇳 中国 阿里云"
       - "[SS] 🇩🇪 德国 阿里云"
+      - "[Trojan] 🇺🇸 美国 CloudFlare节点"
   - name: 🎥 Netflix
     type: select
     proxies:
@@ -42,8 +46,10 @@ proxy-groups:
       - "[VMess] @DeltaKroneckerGithub_2974_IPV4"
       - "[SS] 新西兰 V2CROSS.COM"
       - "[SS] 新西兰 V2CROSS.COM 2"
-      - "[SS] 新西兰 V2CROSS.COM 3"
+      - "[SS] 🇧🇪 比利时 V2CROSS.COM"
+      - "[SS] 🇨🇳 中国 阿里云"
       - "[SS] 🇩🇪 德国 阿里云"
+      - "[Trojan] 🇺🇸 美国 CloudFlare节点"
   - name: 📹 Youtube
     type: select
     proxies:
@@ -55,8 +61,10 @@ proxy-groups:
       - "[VMess] @DeltaKroneckerGithub_2974_IPV4"
       - "[SS] 新西兰 V2CROSS.COM"
       - "[SS] 新西兰 V2CROSS.COM 2"
-      - "[SS] 新西兰 V2CROSS.COM 3"
+      - "[SS] 🇧🇪 比利时 V2CROSS.COM"
+      - "[SS] 🇨🇳 中国 阿里云"
       - "[SS] 🇩🇪 德国 阿里云"
+      - "[Trojan] 🇺🇸 美国 CloudFlare节点"
   - name: ▶️ Disney+
     type: select
     proxies:
@@ -68,8 +76,10 @@ proxy-groups:
       - "[VMess] @DeltaKroneckerGithub_2974_IPV4"
       - "[SS] 新西兰 V2CROSS.COM"
       - "[SS] 新西兰 V2CROSS.COM 2"
-      - "[SS] 新西兰 V2CROSS.COM 3"
+      - "[SS] 🇧🇪 比利时 V2CROSS.COM"
+      - "[SS] 🇨🇳 中国 阿里云"
       - "[SS] 🇩🇪 德国 阿里云"
+      - "[Trojan] 🇺🇸 美国 CloudFlare节点"
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -82,8 +92,10 @@ proxy-groups:
       - "[VMess] @DeltaKroneckerGithub_2974_IPV4"
       - "[SS] 新西兰 V2CROSS.COM"
       - "[SS] 新西兰 V2CROSS.COM 2"
-      - "[SS] 新西兰 V2CROSS.COM 3"
+      - "[SS] 🇧🇪 比利时 V2CROSS.COM"
+      - "[SS] 🇨🇳 中国 阿里云"
       - "[SS] 🇩🇪 德国 阿里云"
+      - "[Trojan] 🇺🇸 美国 CloudFlare节点"
   - name: 📲 Telegram
     type: select
     proxies:
@@ -109,8 +121,10 @@ proxy-groups:
       - "[VMess] @DeltaKroneckerGithub_2974_IPV4"
       - "[SS] 新西兰 V2CROSS.COM"
       - "[SS] 新西兰 V2CROSS.COM 2"
-      - "[SS] 新西兰 V2CROSS.COM 3"
+      - "[SS] 🇧🇪 比利时 V2CROSS.COM"
+      - "[SS] 🇨🇳 中国 阿里云"
       - "[SS] 🇩🇪 德国 阿里云"
+      - "[Trojan] 🇺🇸 美国 CloudFlare节点"
   - name: 🇭🇰 香港
     type: select
     proxies:
@@ -122,7 +136,7 @@ proxy-groups:
   - name: 🇺🇲 美国
     type: select
     proxies:
-      - DIRECT
+      - "[Trojan] 🇺🇸 美国 CloudFlare节点"
   - name: 🇹🇼 台湾
     type: select
     proxies:
